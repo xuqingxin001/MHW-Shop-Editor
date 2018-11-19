@@ -365,6 +365,11 @@ namespace MHWShopEditor
         {
             Send_Out(sender, new RoutedEventArgs());
         }
+
+        private void output_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            Send_In(sender, new RoutedEventArgs());
+        }
     }
 
     public class Item

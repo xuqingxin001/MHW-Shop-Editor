@@ -38,7 +38,7 @@
         </StackPanel>
         <StackPanel HorizontalAlignment="Left" Height="371" Margin="350,24,0,0" VerticalAlignment="Top" Width="170" DataContext="{Binding Mode=OneWay, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type local:MainWindow}}}">
             <TextBox Height="23" TextWrapping="Wrap" Name="OutputFilter" Text="{Binding filterOutputText, UpdateSourceTrigger=PropertyChanged}"/>
-            <ListBox Height="348" Name="output" SelectionMode="Extended" ItemsSource="{Binding filteredOutput}"/>
+            <ListBox Height="348" Name="output" SelectionMode="Extended" ItemsSource="{Binding filteredOutput}" MouseDoubleClick="output_MouseDoubleClick"/>
         </StackPanel>
     </Grid>
 </Window>
