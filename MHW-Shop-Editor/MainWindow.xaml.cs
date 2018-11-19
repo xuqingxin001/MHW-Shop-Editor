@@ -360,6 +360,11 @@ namespace MHWShopEditor
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("filteredInput"));
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("filteredOutput"));
         }
+
+        private void input_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            Send_Out(sender, new RoutedEventArgs());
+        }
     }
 
     public class Item

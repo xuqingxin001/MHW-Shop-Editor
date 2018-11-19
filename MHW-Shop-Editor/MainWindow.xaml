@@ -34,7 +34,7 @@
         <Button Content="&lt;-" HorizontalAlignment="Left" Margin="254,291,0,0" VerticalAlignment="Top" Width="75" Click="Send_In"/>
         <StackPanel HorizontalAlignment="Left" Height="371" Margin="59,24,0,0" VerticalAlignment="Top" Width="170" DataContext="{Binding Mode=OneWay, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type local:MainWindow}}}">
             <TextBox Height="23" TextWrapping="Wrap" Name="InputFilter" Text="{Binding filterInputText, UpdateSourceTrigger=PropertyChanged}"/>
-            <ListBox Height="348" Name="input" SelectionMode="Extended" ItemsSource="{Binding filteredInput}"/>
+            <ListBox Height="348" Name="input" SelectionMode="Extended" ItemsSource="{Binding filteredInput}" MouseDoubleClick="input_MouseDoubleClick"/>
         </StackPanel>
         <StackPanel HorizontalAlignment="Left" Height="371" Margin="350,24,0,0" VerticalAlignment="Top" Width="170" DataContext="{Binding Mode=OneWay, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type local:MainWindow}}}">
             <TextBox Height="23" TextWrapping="Wrap" Name="OutputFilter" Text="{Binding filterOutputText, UpdateSourceTrigger=PropertyChanged}"/>
