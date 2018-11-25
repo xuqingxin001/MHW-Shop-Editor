@@ -41,6 +41,10 @@ namespace MHWShopEditor
         {
             InitializeComponent();
             Init_Boxes();
+            if (Properties.Settings.Default.SaveDirectory == "")
+            {
+                Properties.Settings.Default.SaveDirectory = AppDomain.CurrentDomain.BaseDirectory;
+            }
         }
 
         private void Populate_Boxes(List<string> items)
@@ -89,12 +93,14 @@ namespace MHWShopEditor
                 FileName = "shopList",
                 DefaultExt = ".slt",
                 Filter = "Shop List file | *.slt",
-                InitialDirectory = AppDomain.CurrentDomain.BaseDirectory
+                InitialDirectory = Properties.Settings.Default.SaveDirectory
             };
-
+            Console.WriteLine(Properties.Settings.Default.SaveDirectory);
             if (dlg.ShowDialog() == true)
-            {
+            {                
                 string filename = dlg.FileName;
+                Properties.Settings.Default.SaveDirectory = System.IO.Path.GetDirectoryName(filename);
+                Properties.Settings.Default.Save();
                 byte[] input = System.IO.File.ReadAllBytes(filename);
                 byte[] buffer = new byte[2];
                 List<string> items = new List<string>();
@@ -116,7 +122,7 @@ namespace MHWShopEditor
                 FileName = "shopList",
                 DefaultExt = ".slt",
                 Filter = "Shop List file | *.slt",
-                InitialDirectory = AppDomain.CurrentDomain.BaseDirectory
+                InitialDirectory = Properties.Settings.Default.SaveDirectory
             };
 
 
@@ -124,6 +130,8 @@ namespace MHWShopEditor
             {
                 if ((fs = dlg.OpenFile()) != null)
                 {
+                    Properties.Settings.Default.SaveDirectory = System.IO.Path.GetDirectoryName(dlg.FileName);
+                    Properties.Settings.Default.Save();
                     byte[] header = new byte[] { 0x18, 0x00, 0xFF, 0xFF, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
                     byte[] buffer = new byte[] { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
                     List<byte> items = header.ToList();
