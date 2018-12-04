@@ -933,7 +933,7 @@
         <local:Item Key="item038C" Value="Spring Blossom Ticket"/>
         <local:Item Key="item038D" Value="Summer Twilight Ticket"/>
         <local:Item Key="item038E" Value="Autum Harvest Ticket"/>
-        <local:Item Key="item038F" Value="Item 911"/>
+        <local:Item Key="item038F" Value="Winter Star Ticket"/>
         <local:Item Key="item0390" Value="Item 912"/>
         <local:Item Key="item0391" Value="Spring Insect Field Guide"/>
         <local:Item Key="item0392" Value="Summer Insect Field Guide"/>
@@ -942,8 +942,8 @@
         <local:Item Key="item0395" Value="Teostra Ticket"/>
         <local:Item Key="item0396" Value="Kushala Daora Ticket"/>
         <local:Item Key="item0397" Value="Item 919"/>
-        <local:Item Key="item0398" Value="Item 920"/>
-        <local:Item Key="item0399" Value="Item 921"/>
+        <local:Item Key="item0398" Value="Zorah Magdaros Ticket"/>
+        <local:Item Key="item0399" Value="Xeno'jiva Ticket"/>
         <local:Item Key="item039A" Value="Black Bandage"/>
         <local:Item Key="item039B" Value="Black Crystal Ticket"/>
         <local:Item Key="item039C" Value="Kulu-Ya-Ku Ticket"/>
@@ -954,8 +954,8 @@
         <local:Item Key="item03A1" Value="Item 929"/>
         <local:Item Key="item03A2" Value="Item 930"/>
         <local:Item Key="item03A3" Value="Item 931"/>
-        <local:Item Key="item03A4" Value="Item 932"/>
-        <local:Item Key="item03A5" Value="Item 933"/>
+        <local:Item Key="item03A4" Value="Azure Star Shard"/>
+        <local:Item Key="item03A5" Value="Azure Stargem"/>
         <local:Item Key="item03A6" Value="Red Orb"/>
         <local:Item Key="item03A7" Value="Master Craftsmman's Blueprint"/>
         <local:Item Key="item03A8" Value="Dissolved Weapon"/>
@@ -965,7 +965,7 @@
         <local:Item Key="item03AC" Value="Blossom Fireworks"/>
         <local:Item Key="item03AD" Value="Twilight Fireworks"/>
         <local:Item Key="item03AE" Value="Harvest Fireworks"/>
-        <local:Item Key="item03AF" Value="Item 943"/>
+        <local:Item Key="item03AF" Value="Star Fireworks"/>
         <local:Item Key="item03B0" Value="Item 944"/>
         <local:Item Key="item03B1" Value="Gold Scalebat"/>
         <local:Item Key="item03B2" Value="Gold Helmcrab"/>
@@ -984,15 +984,15 @@
         <local:Item Key="item03BF" Value="Item 959"/>
         <local:Item Key="item03C0" Value="Item 960"/>
         <local:Item Key="item03C1" Value="Downy Crake Ticket"/>
-        <local:Item Key="item03C2" Value="Item 962"/>
+        <local:Item Key="item03C2" Value="Bristly Crake Ticket"/>
         <local:Item Key="item03C3" Value="First Fleet Ticket"/>
         <local:Item Key="item03C4" Value="Item 964"/>
-        <local:Item Key="item03C5" Value="Item 965"/>
+        <local:Item Key="item03C5" Value="Lunastra Ticket"/>
         <local:Item Key="item03C6" Value="Transparent Stone"/>
         <local:Item Key="item03C7" Value="Flowering Cactuar Cutting"/>
         <local:Item Key="item03C8" Value="Cactuar"/>
         <local:Item Key="item03C9" Value="Faux Ticket"/>
-        <local:Item Key="item03CA" Value="Item 970"/>
+        <local:Item Key="item03CA" Value="Faux Ticket II"/>
         <local:Item Key="item03CB" Value="Item 971"/>
         <local:Item Key="item03CC" Value="Item 972"/>
         <local:Item Key="item03CD" Value="Item 973"/>
