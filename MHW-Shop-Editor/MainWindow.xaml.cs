@@ -51,7 +51,7 @@ namespace MHWShopEditor
         {
             Item[] itemlist = new Item[listboxin.Count];
             listboxin.CopyTo(itemlist, 0);                     
-            if (listboxout.Count + items.Count > 254)
+            if (listboxout.Count + items.Count > 255)
             {
                 Error_Message();
             }
