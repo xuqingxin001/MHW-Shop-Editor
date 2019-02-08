@@ -161,13 +161,18 @@ namespace MHWShopEditor
                 case "fr-FR":
                     dict.Source = new Uri("Lang.fr-FR.xaml", UriKind.Relative);
                     break;
-                //case "es-ES":
-                    //dict.Source = new Uri("Lang.es-ES.xaml", UriKind.Relative);
-                    //break;
+				case "ch-TW":
+					dict.Source = new Uri("Lang.ch-TW.xaml", UriKind.Relative);
+					break;
+				case "es-ES":
+					dict.Source = new Uri("Lang.es-ES.xaml", UriKind.Relative);
+					break;
                 default:
                     break;
-            }
-            this.Resources.MergedDictionaries.Add(dict);
+            }														   
+			Application.Current.Resources.MergedDictionaries.Clear();
+			Application.Current.Resources.MergedDictionaries.Add(dict);
+			hiddenlist = (Item[])Application.Current.FindResource("itemsList");																		 
             Clear();
             Init_Boxes();
         }
@@ -185,7 +190,8 @@ namespace MHWShopEditor
         private void Clear()
         {
             List<Item> itemlist = new List<Item>();
-            foreach (Item item in listboxout) {
+            foreach (Item item in listboxout) 
+			{
                 listboxin.Add(item);
                 itemlist.Add(item);
             }

@@ -28,6 +28,7 @@
                     <ComboBoxItem Content="English" Tag="en-US"/>
                     <ComboBoxItem Content="Español" Tag="es-ES"/>
                     <ComboBoxItem Content="Français" Tag="fr-FR"/>
+                    <ComboBoxItem Content="繁體中文" Tag="ch-TW"/>
                 </ComboBox>
             </MenuItem>
         </Menu>
