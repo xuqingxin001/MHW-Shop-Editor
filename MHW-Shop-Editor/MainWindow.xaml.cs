@@ -29,7 +29,7 @@ namespace MHWShopEditor
         public static readonly string[] LR_MATERIALS = { "00CD", "00CE", "00CF", "00D2", "00D3", "00D5", "00D8", "00E1", "00E2", "00E3", "00E4", "00E5", "00E6", "00EA", "00EB", "00EC", "00ED", "00EE", "00F3", "00F5", "00F7", "00F9", "00FB", "00FD", "00FF", "0101", "0103", "0108", "0109", "010B", "010D", "010F", "0110", "0111", "0114", "0115", "0118", "011C", "011D", "0121", "0122", "0125", "0126", "0129", "012A", "012B", "012E", "012F", "0130", "0131", "0135", "0136", "0137", "0138", "013D", "013E", "013F", "0140", "0141", "0146", "0147", "0148", "0149", "014A", "014B", "014F", "0150", "0151", "0152", "0157", "0158", "0159", "015A", "015B", "0160", "0161", "0162", "0163", "0164", "0165", "016B", "016C", "016D", "016E", "016F", "0176", "0177", "0178", "0179", "017E", "017F", "0180", "0181", "0186", "0187", "0188", "0189", "018A", "018F", "0190", "0191", "0192", "0194", "0198", "0199", "019A", "019B", "019C", "019D", "01A3", "01A4", "01A5", "01A6", "01A7", "01A8", "01AE", "01AF", "01B0", "01B1", "01B2", "01B3", "01B4", "01BE", "01BF", "01C0", "01C1", "01C2", "01C3", "01CB", "01CC", "01CD", "01CE", "01D3", "01D4", "01D5", "01D6", "01D8" };
         public static readonly string[] HR_MATERIALS = { "00D0", "00D1", "00D4", "00D6", "00D7", "00D9", "00DA", "00DB", "00E7", "00E8", "00E9", "00EF", "00F0", "00F1", "00F2", "00F4", "00F6", "00F8", "00FA", "00FC", "00FE", "0100", "0102", "0104", "0105", "0106", "0107", "010A", "010C", "010E", "0112", "0113", "0116", "0117", "0119", "011A", "011B", "011E", "011F", "0120", "0123", "0124", "0127", "0128", "012C", "012D", "0132", "0133", "0134", "0139", "013A", "013B", "013C", "0142", "0143", "0144", "0145", "014C", "014D", "014E", "0153", "0154", "0155", "0156", "015C", "015D", "015E", "015F", "0166", "0167", "0168", "0169", "016A", "0170", "0171", "0172", "0173", "0174", "0175", "017A", "017B", "017C", "017D", "0182", "0183", "0184", "0185", "018B", "018C", "018D", "018E", "0195", "0196", "0197", "019E", "019F", "01A0", "01A1", "01A2", "01A9", "01AA", "01AB", "01AC", "01AD", "01B5", "01B6", "01B7", "01B8", "01B9", "01BA", "01BB", "01BC", "01BD", "01C4", "01C5", "01C6", "01C7", "01C8", "01C9", "01CA", "01CF", "01D0", "01D1", "01D9", "01DA", "01DB", "01DC", "01DD", "01DE", "01DF", "01E0", "01E1", "01E2", "01E3", "01E4", "01E5", "01E6", "01E7", "01E8", "01E9", "01EA", "01EB", "01EC", "01ED", "01EE", "01EF", "01F0", "01F1", "01F2", "01F4", "01F5", "01F6", "01F7", "01F8", "01F9", "01FA", "01FB", "01FC", "01FD", "01FE", "01FF", "0201", "0202", "0203", "0204", "0205", "0206", "0207", "0208", "0209", "020A", "020B", "020C", "020D", "020E", "020F", "0210", "0211", "0212", "0213", "0214", "0215", "0216", "0217", "0218", "0219", "036F", "0370", "0371", "0372", "0373", "0374", "0375", "0376", "0377", "0378", "0379", "037A", "037B", "037C", "037F", "0380", "0381", "0382", "0383", "0384", "0385" };
         public static int insert = -1;
-        private static Item[] hiddenlist = (Item[])Application.Current.FindResource("itemsList");
+        private static Item[] hiddenlist = (Item[]) Application.Current.FindResource("itemsList");
         private static List<Item> listboxin = new List<Item>();
         private static List<Item> listboxout = new List<Item>();
         private static string inputFilterText = "";
@@ -50,7 +50,7 @@ namespace MHWShopEditor
         private void Populate_Boxes(List<string> items)
         {
             Item[] itemlist = new Item[listboxin.Count];
-            listboxin.CopyTo(itemlist, 0);                     
+            listboxin.CopyTo(itemlist, 0);
             if (listboxout.Count + items.Count > 255)
             {
                 Error_Message();
@@ -97,16 +97,16 @@ namespace MHWShopEditor
             };
             Console.WriteLine(Properties.Settings.Default.SaveDirectory);
             if (dlg.ShowDialog() == true)
-            {                
+            {
                 string filename = dlg.FileName;
                 Properties.Settings.Default.SaveDirectory = System.IO.Path.GetDirectoryName(filename);
                 Properties.Settings.Default.Save();
                 byte[] input = System.IO.File.ReadAllBytes(filename);
                 byte[] buffer = new byte[2];
                 List<string> items = new List<string>();
-                for (int i = 10; i < input.Length-1; i+=12)
+                for (int i = 10; i < input.Length - 1; i += 12)
                 {
-                    buffer[0] = input[i+1];
+                    buffer[0] = input[i + 1];
                     buffer[1] = input[i];
                     items.Add(BitConverter.ToString(buffer).Replace("-", ""));
                 }
@@ -132,8 +132,8 @@ namespace MHWShopEditor
                 {
                     Properties.Settings.Default.SaveDirectory = System.IO.Path.GetDirectoryName(dlg.FileName);
                     Properties.Settings.Default.Save();
-                    byte[] header = new byte[] { 0x18, 0x00, 0xFF, 0xFF, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
-                    byte[] buffer = new byte[] { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
+                    byte[] header = new byte[] { 0x18, 0x00, 0xFF, 0xFF, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
+                    byte[] buffer = new byte[] { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
                     List<byte> items = header.ToList();
                     foreach (Item item in listboxout)
                     {
@@ -158,21 +158,20 @@ namespace MHWShopEditor
                 case "en-US":
                     dict.Source = new Uri("Lang.en-US.xaml", UriKind.Relative);
                     break;
-                case "fr-FR":
-                    dict.Source = new Uri("Lang.fr-FR.xaml", UriKind.Relative);
+                case "ch-TW":
+                    dict.Source = new Uri("Lang.ch-TW.xaml", UriKind.Relative);
                     break;
-				case "ch-TW":
-					dict.Source = new Uri("Lang.ch-TW.xaml", UriKind.Relative);
-					break;
-				case "es-ES":
-					dict.Source = new Uri("Lang.es-ES.xaml", UriKind.Relative);
-					break;
+                //case "fr-FR":
+                    //dict.Source = new Uri("Lang.fr-FR.xaml", UriKind.Relative);
+                    //break;
+                //case "es-ES":
+                    //dict.Source = new Uri("Lang.es-ES.xaml", UriKind.Relative);
+                    //break;
                 default:
                     break;
-            }														   
-			Application.Current.Resources.MergedDictionaries.Clear();
-			Application.Current.Resources.MergedDictionaries.Add(dict);
-			hiddenlist = (Item[])Application.Current.FindResource("itemsList");																		 
+            }
+            Application.Current.Resources.MergedDictionaries.Add(dict);
+            hiddenlist = (Item[]) Application.Current.FindResource("itemsList");
             Clear();
             Init_Boxes();
         }
@@ -190,8 +189,8 @@ namespace MHWShopEditor
         private void Clear()
         {
             List<Item> itemlist = new List<Item>();
-            foreach (Item item in listboxout) 
-			{
+            foreach (Item item in listboxout)
+            {
                 listboxin.Add(item);
                 itemlist.Add(item);
             }
@@ -242,7 +241,7 @@ namespace MHWShopEditor
         }
 
         private void Send_Out(object sender, RoutedEventArgs e)
-        {            
+        {
             if (input.SelectedItems != null && input.SelectedItems.Count + listboxout.Count < 256)
             {
                 Item[] selecteditems = new Item[input.SelectedItems.Count];
@@ -255,7 +254,7 @@ namespace MHWShopEditor
                     {
                         listboxout.Insert(0, item);
                         itemlist.Add(item);
-                    }                      
+                    }
                 }
                 else
                 {
@@ -264,7 +263,7 @@ namespace MHWShopEditor
                         listboxout.Add(item);
                         itemlist.Add(item);
                     }
-                        
+
                 }
                 foreach (Item item in itemlist)
                 {
@@ -299,7 +298,7 @@ namespace MHWShopEditor
 
         private void Insertion_Method(object sender, SelectionChangedEventArgs e)
         {
-            switch(insert)
+            switch (insert)
             {
                 case 0:
                     insert = -1;
@@ -321,7 +320,7 @@ namespace MHWShopEditor
         {
             get
             {
-                if (String.IsNullOrEmpty(inputFilterText)) 
+                if (String.IsNullOrEmpty(inputFilterText))
                 {
                     return new ObservableCollection<Item>(listboxin);
                 }
@@ -332,7 +331,7 @@ namespace MHWShopEditor
 
         public string filterInputText
         {
-            get { return inputFilterText;  }
+            get { return inputFilterText; }
             set
             {
                 inputFilterText = value;

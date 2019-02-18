@@ -26,8 +26,8 @@
             <MenuItem Header="{DynamicResource lang}" Height="19" Width="100">
                 <ComboBox Width="120" SelectionChanged="ComboBox_SelectionChanged" SelectedIndex="0">
                     <ComboBoxItem Content="English" Tag="en-US"/>
-                    <ComboBoxItem Content="Español" Tag="es-ES"/>
-                    <ComboBoxItem Content="Français" Tag="fr-FR"/>
+                    <!-- <ComboBoxItem Content="Español" Tag="es-ES"/>
+                    <ComboBoxItem Content="Français" Tag="fr-FR"/> -->
                     <ComboBoxItem Content="繁體中文" Tag="ch-TW"/>
                 </ComboBox>
             </MenuItem>
