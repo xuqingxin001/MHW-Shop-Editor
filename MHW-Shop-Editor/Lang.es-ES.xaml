@@ -978,7 +978,7 @@
         <local:Item Key="item03B8" Value="Gold Chip Fragment"/>
         <local:Item Key="item03B9" Value="Gold Nugget Fragment"/>
         <local:Item Key="item03BA" Value="Item 954"/>
-        <local:Item Key="item03BB" Value="Item 955"/>
+        <local:Item Key="item03BB" Value="Senu's Feather"/>
         <local:Item Key="item03BC" Value="Item 956"/>
         <local:Item Key="item03BD" Value="Item 957"/>
         <local:Item Key="item03BE" Value="Item 958"/>
@@ -1000,8 +1000,8 @@
         <local:Item Key="item03CE" Value="Item 974"/>
         <local:Item Key="item03CF" Value="Glamour Prism"/>
         <local:Item Key="item03D0" Value="Item 976"/>
-        <local:Item Key="item03D1" Value="Item 977"/>
-        <local:Item Key="item03D2" Value="Item 978"/>
+        <local:Item Key="item03D1" Value="Incandescent Weapon"/>
+        <local:Item Key="item03D2" Value="Kulve Taroth Emperor Nugget"/>
         <local:Item Key="item03D3" Value="Item 979"/>
         <local:Item Key="item03D4" Value="Item 980"/>
         <local:Item Key="item03D5" Value="Item 981"/>
