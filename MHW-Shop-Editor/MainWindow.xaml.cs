@@ -39,6 +39,7 @@ namespace MHWShopEditor
         public MainWindow()
         {
             InitializeComponent();
+            Title = Title + " v" + getVersion();
             if (Properties.Settings.Default.SaveDirectory == "")
             {
                 Properties.Settings.Default.SaveDirectory = AppDomain.CurrentDomain.BaseDirectory;
@@ -379,6 +380,11 @@ namespace MHWShopEditor
         private void OutputDoubleClick(object sender, MouseButtonEventArgs e)
         {
             SendIn(sender, new RoutedEventArgs());
+        }
+
+        public String getVersion()
+        {
+            return System.Diagnostics.FileVersionInfo.GetVersionInfo(System.Reflection.Assembly.GetExecutingAssembly().Location).FileVersion;
         }
     }
 
