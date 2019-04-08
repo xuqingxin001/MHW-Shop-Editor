@@ -6,25 +6,25 @@
         xmlns:local="clr-namespace:MHWShopEditor"
         mc:Ignorable="d" Height="450" Width="800" Title="{DynamicResource title}">
     <Grid>
-        <Button Content="{DynamicResource default}" HorizontalAlignment="Left" Margin="610,52,0,0" VerticalAlignment="Top" Click="Default_Items"/>
-        <Button Content="{DynamicResource gems}" HorizontalAlignment="Left" Margin="610,98,0,0" VerticalAlignment="Top" Click="All_Gems" />
-        <Button Content="{DynamicResource consumables}" HorizontalAlignment="Left" Margin="610,144,0,0" VerticalAlignment="Top" Click="All_Consumables"/>
-        <Button Content="{DynamicResource lr_mats}" HorizontalAlignment="Left" Margin="610,190,0,0" VerticalAlignment="Top" Click="LR_Materials"/>
-        <Button Content="{DynamicResource hr_mats}" HorizontalAlignment="Left" Margin="610,236,0,0" VerticalAlignment="Top" Click="HR_Materials"/>
-        <Button Content="{DynamicResource clear}" HorizontalAlignment="Left" Margin="610,282,0,0" VerticalAlignment="Top" Click="Clear_Button" />
+        <Button Content="{DynamicResource default}" HorizontalAlignment="Left" Margin="610,52,0,0" VerticalAlignment="Top" Click="DefaultItems"/>
+        <Button Content="{DynamicResource gems}" HorizontalAlignment="Left" Margin="610,98,0,0" VerticalAlignment="Top" Click="AllGems" />
+        <Button Content="{DynamicResource consumables}" HorizontalAlignment="Left" Margin="610,144,0,0" VerticalAlignment="Top" Click="AllConsumables"/>
+        <Button Content="{DynamicResource lr_mats}" HorizontalAlignment="Left" Margin="610,190,0,0" VerticalAlignment="Top" Click="LRMaterials"/>
+        <Button Content="{DynamicResource hr_mats}" HorizontalAlignment="Left" Margin="610,236,0,0" VerticalAlignment="Top" Click="HRMaterials"/>
+        <Button Content="{DynamicResource clear}" HorizontalAlignment="Left" Margin="610,282,0,0" VerticalAlignment="Top" Click="ClearItems" />
         <Menu HorizontalAlignment="Left" Height="19" VerticalAlignment="Top" Width="792">
             <MenuItem Header="{DynamicResource file}" Height="19" Width="100">
-                <MenuItem Header="{DynamicResource open}" HorizontalAlignment="Left" Height="30" Width="140" Click="openFile"/>
-                <MenuItem Header="{DynamicResource save}" HorizontalAlignment="Left" Height="30" Width="140" Click="saveFile"/>
+                <MenuItem Header="{DynamicResource open}" HorizontalAlignment="Left" Height="30" Width="140" Click="OpenFile"/>
+                <MenuItem Header="{DynamicResource save}" HorizontalAlignment="Left" Height="30" Width="140" Click="SaveFile"/>
             </MenuItem>
             <MenuItem Header="{DynamicResource settings}" Height="19" Width="100">
-                <ComboBox Width="120" SelectedIndex="0" SelectionChanged="Insertion_Method">
+                <ComboBox Width="120" SelectionChanged="InsertMethodChanged" Name="Settings">
                     <ComboBoxItem Content="{DynamicResource insertTop}" HorizontalAlignment="Left" Width="118"/>
                     <ComboBoxItem Content="{DynamicResource insertBottom}" HorizontalAlignment="Left" Width="118"/>
                 </ComboBox>
             </MenuItem>
             <MenuItem Header="{DynamicResource lang}" Height="19" Width="100">
-                <ComboBox Width="120" SelectionChanged="ComboBox_SelectionChanged" SelectedIndex="0">
+                <ComboBox Width="120" SelectionChanged="LanguageChanged" Name="Language">
                     <ComboBoxItem Content="English" Tag="en-US"/>
                     <!-- <ComboBoxItem Content="Español" Tag="es-ES"/>
                     <ComboBoxItem Content="Français" Tag="fr-FR"/> -->
@@ -32,15 +32,15 @@
                 </ComboBox>
             </MenuItem>
         </Menu>
-        <Button Content="-&gt;" HorizontalAlignment="Left" Margin="254,103,0,0" VerticalAlignment="Top" Width="75" Click="Send_Out"/>
-        <Button Content="&lt;-" HorizontalAlignment="Left" Margin="254,291,0,0" VerticalAlignment="Top" Width="75" Click="Send_In"/>
+        <Button Content="-&gt;" HorizontalAlignment="Left" Margin="254,103,0,0" VerticalAlignment="Top" Width="75" Click="SendOut"/>
+        <Button Content="&lt;-" HorizontalAlignment="Left" Margin="254,291,0,0" VerticalAlignment="Top" Width="75" Click="SendIn"/>
         <StackPanel HorizontalAlignment="Left" Height="371" Margin="59,24,0,0" VerticalAlignment="Top" Width="170" DataContext="{Binding Mode=OneWay, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type local:MainWindow}}}">
             <TextBox Height="23" TextWrapping="Wrap" Name="InputFilter" Text="{Binding filterInputText, UpdateSourceTrigger=PropertyChanged}"/>
-            <ListBox Height="348" Name="input" SelectionMode="Extended" ItemsSource="{Binding filteredInput}" MouseDoubleClick="input_MouseDoubleClick"/>
+            <ListBox Height="348" Name="input" SelectionMode="Extended" ItemsSource="{Binding filteredInput}" MouseDoubleClick="InputDoubleClick"/>
         </StackPanel>
         <StackPanel HorizontalAlignment="Left" Height="371" Margin="350,24,0,0" VerticalAlignment="Top" Width="170" DataContext="{Binding Mode=OneWay, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type local:MainWindow}}}">
             <TextBox Height="23" TextWrapping="Wrap" Name="OutputFilter" Text="{Binding filterOutputText, UpdateSourceTrigger=PropertyChanged}"/>
-            <ListBox Height="348" Name="output" SelectionMode="Extended" ItemsSource="{Binding filteredOutput}" MouseDoubleClick="output_MouseDoubleClick"/>
+            <ListBox Height="348" Name="output" SelectionMode="Extended" ItemsSource="{Binding filteredOutput}" MouseDoubleClick="OutputDoubleClick"/>
         </StackPanel>
     </Grid>
 </Window>
