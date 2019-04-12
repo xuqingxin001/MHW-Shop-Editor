@@ -19,6 +19,7 @@
     <system:String x:Key="settings">設定</system:String>
     <system:String x:Key="insertTop">插入最頂</system:String>
     <system:String x:Key="insertBottom">插入最底</system:String>
+    <system:String x:Key="count">Item Count:</system:String>
 
 
     <!--itemlist-->

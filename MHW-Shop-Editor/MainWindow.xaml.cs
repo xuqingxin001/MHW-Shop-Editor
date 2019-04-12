@@ -97,7 +97,6 @@ namespace MHWShopEditor
                 Filter = "Shop List file | *.slt",
                 InitialDirectory = Properties.Settings.Default.SaveDirectory
             };
-            Console.WriteLine(Properties.Settings.Default.SaveDirectory);
             if (dlg.ShowDialog() == true)
             {
                 string filename = dlg.FileName;
@@ -347,7 +346,6 @@ namespace MHWShopEditor
                     return new ObservableCollection<Item>(listBoxOut);
                 }
                 var filtered = listBoxOut.Where(x => x.Value.ToUpper().Contains(outputFilterText.ToUpper()));
-                Console.WriteLine(filtered.ElementAtOrDefault(0));
                 return new ObservableCollection<Item>(filtered);
             }
         }
@@ -370,6 +368,7 @@ namespace MHWShopEditor
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("filteredInput"));
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("filteredOutput"));
+            itemCount.Text = listBoxOut.Count.ToString();
         }
 
         private void InputDoubleClick(object sender, MouseButtonEventArgs e)
