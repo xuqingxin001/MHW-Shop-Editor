@@ -59,7 +59,7 @@ namespace MHWShopEditor
             }
             else
             {
-                if (Properties.Settings.Default.InsertMethod == 1)
+                if (Properties.Settings.Default.InsertMethod == 0)
                 {
                     items.Reverse();
                     foreach (string item in items)
@@ -251,7 +251,7 @@ namespace MHWShopEditor
                 Item[] selecteditems = new Item[input.SelectedItems.Count];
                 input.SelectedItems.CopyTo(selecteditems, 0);
                 List<Item> itemlist = new List<Item>();
-                if (Properties.Settings.Default.InsertMethod == 1)
+                if (Properties.Settings.Default.InsertMethod == 0)
                 {
                     Array.Reverse(selecteditems);
                     foreach (Item item in selecteditems)
