@@ -19,7 +19,7 @@
     <system:String x:Key="settings">設定</system:String>
     <system:String x:Key="insertTop">插入最頂</system:String>
     <system:String x:Key="insertBottom">插入最底</system:String>
-    <system:String x:Key="count">Item Count:</system:String>
+    <system:String x:Key="count">物品數量:</system:String>
 
 
     <!--itemlist-->
@@ -111,7 +111,7 @@
         <local:Item Key="item0055" Value="龍魚糰子"/>
         <local:Item Key="item0056" Value="金魚糰子"/>
         <local:Item Key="item0057" Value="黃金糰子"/>
-        <local:Item Key="item0058" Value="回力鏢"/>
+        <local:Item Key="item0058" Value="迴力鏢"/>
         <local:Item Key="item0059" Value="望遠鏡"/>
         <local:Item Key="item005A" Value="力量之護符"/>
         <local:Item Key="item005B" Value="力之爪"/>
@@ -978,7 +978,7 @@
         <local:Item Key="item03B8" Value="黃金片碎片"/>
         <local:Item Key="item03B9" Value="黃金片塊"/>
         <local:Item Key="item03BA" Value="Item 954"/>
-        <local:Item Key="item03BB" Value="Senu's Feather"/>
+        <local:Item Key="item03BB" Value="賽努的發翔羽"/>
         <local:Item Key="item03BC" Value="Item 956"/>
         <local:Item Key="item03BD" Value="Item 957"/>
         <local:Item Key="item03BE" Value="Item 958"/>
@@ -1000,8 +1000,8 @@
         <local:Item Key="item03CE" Value="Item 974"/>
         <local:Item Key="item03CF" Value="幻象稜晶"/>
         <local:Item Key="item03D0" Value="Item 976"/>
-        <local:Item Key="item03D1" Value="Incandescent Weapon"/>
-        <local:Item Key="item03D2" Value="Kulve Taroth Emperor Nugget"/>
+        <local:Item Key="item03D1" Value="帶有灼熱的武器"/>
+        <local:Item Key="item03D2" Value="絢輝龍的帝王金塊"/>
         <local:Item Key="item03D3" Value="Item 979"/>
         <local:Item Key="item03D4" Value="Item 980"/>
         <local:Item Key="item03D5" Value="Item 981"/>
@@ -1022,7 +1022,7 @@
         <local:Item Key="item03E4" Value="Item 996"/>
         <local:Item Key="item03E5" Value="Item 997"/>
         <local:Item Key="item03E6" Value="Item 998"/>
-        <local:Item Key="item03E7" Value="Hex's Golden Ticket"/>
+        <local:Item Key="item03E7" Value="刺客衣裝"/>
         <local:Item Key="item03E8" Value="Item 1000"/>
         <local:Item Key="item03E9" Value="Item 1001"/>
         <local:Item Key="item03EA" Value="Item 1002"/>
