@@ -3,7 +3,6 @@
                     xmlns:local="clr-namespace:MHWShopEditor"
                     xmlns:system="clr-namespace:System;assembly=mscorlib">
 
-
     <!--TODO: Translate strings-->
     <!--application-->
     <system:String x:Key="title">MHW Shop Editor</system:String>
@@ -936,14 +935,14 @@
         <local:Item Key="item038D" Value="Summer Twilight Ticket"/>
         <local:Item Key="item038E" Value="Autum Harvest Ticket"/>
         <local:Item Key="item038F" Value="Winter Star Ticket"/>
-        <local:Item Key="item0390" Value="Item 912"/>
+        <local:Item Key="item0390" Value="Appreciation Ticket"/>
         <local:Item Key="item0391" Value="Spring Insect Field Guide"/>
         <local:Item Key="item0392" Value="Summer Insect Field Guide"/>
         <local:Item Key="item0393" Value="Vaal Hazak Ticket"/>
         <local:Item Key="item0394" Value="Kirin Ticket"/>
         <local:Item Key="item0395" Value="Teostra Ticket"/>
         <local:Item Key="item0396" Value="Kushala Daora Ticket"/>
-        <local:Item Key="item0397" Value="Item 919"/>
+        <local:Item Key="item0397" Value="Nergigante Ticket"/>
         <local:Item Key="item0398" Value="Zorah Magdaros Ticket"/>
         <local:Item Key="item0399" Value="Xeno'jiva Ticket"/>
         <local:Item Key="item039A" Value="Black Bandage"/>
@@ -968,7 +967,7 @@
         <local:Item Key="item03AD" Value="Twilight Fireworks"/>
         <local:Item Key="item03AE" Value="Harvest Fireworks"/>
         <local:Item Key="item03AF" Value="Star Fireworks"/>
-        <local:Item Key="item03B0" Value="Item 944"/>
+        <local:Item Key="item03B0" Value="Appreciation Fireworks"/>
         <local:Item Key="item03B1" Value="Gold Scalebat"/>
         <local:Item Key="item03B2" Value="Gold Helmcrab"/>
         <local:Item Key="item03B3" Value="Shiny Gold Helmcrab"/>
@@ -978,43 +977,43 @@
         <local:Item Key="item03B7" Value="Cactuar Cutting"/>
         <local:Item Key="item03B8" Value="Gold Chip Fragment"/>
         <local:Item Key="item03B9" Value="Gold Nugget Fragment"/>
-        <local:Item Key="item03BA" Value="Item 954"/>
+        <local:Item Key="item03BA" Value="Item Blossom Ticket"/>
         <local:Item Key="item03BB" Value="Senu's Feather"/>
-        <local:Item Key="item03BC" Value="Item 956"/>
-        <local:Item Key="item03BD" Value="Item 957"/>
-        <local:Item Key="item03BE" Value="Item 958"/>
-        <local:Item Key="item03BF" Value="Item 959"/>
-        <local:Item Key="item03C0" Value="Item 960"/>
+        <local:Item Key="item03BC" Value="Hunter Runestone"/>
+        <local:Item Key="item03BD" Value="Hunter Runestone"/>
+        <local:Item Key="item03BE" Value="Necker"/>
+        <local:Item Key="item03BF" Value="Brigade Ticket"/>
+        <local:Item Key="item03C0" Value="Guild Cross Ticket"/>
         <local:Item Key="item03C1" Value="Downy Crake Ticket"/>
         <local:Item Key="item03C2" Value="Bristly Crake Ticket"/>
         <local:Item Key="item03C3" Value="First Fleet Ticket"/>
-        <local:Item Key="item03C4" Value="Item 964"/>
+        <local:Item Key="item03C4" Value="Fifth Fleet Ticket"/>
         <local:Item Key="item03C5" Value="Lunastra Ticket"/>
         <local:Item Key="item03C6" Value="Transparent Stone"/>
         <local:Item Key="item03C7" Value="Flowering Cactuar Cutting"/>
         <local:Item Key="item03C8" Value="Cactuar"/>
         <local:Item Key="item03C9" Value="Faux Ticket"/>
         <local:Item Key="item03CA" Value="Faux Ticket II"/>
-        <local:Item Key="item03CB" Value="Item 971"/>
-        <local:Item Key="item03CC" Value="Item 972"/>
+        <local:Item Key="item03CB" Value="Faux Ticket III"/>
+        <local:Item Key="item03CC" Value="Beetle Ticket"/>
         <local:Item Key="item03CD" Value="Item 973"/>
         <local:Item Key="item03CE" Value="Item 974"/>
         <local:Item Key="item03CF" Value="Glamour Prism"/>
         <local:Item Key="item03D0" Value="Item 976"/>
         <local:Item Key="item03D1" Value="Incandescent Weapon"/>
         <local:Item Key="item03D2" Value="Kulve Taroth Emperor Nugget"/>
-        <local:Item Key="item03D3" Value="Item 979"/>
-        <local:Item Key="item03D4" Value="Item 980"/>
-        <local:Item Key="item03D5" Value="Item 981"/>
-        <local:Item Key="item03D6" Value="Item 982"/>
-        <local:Item Key="item03D7" Value="Item 983"/>
-        <local:Item Key="item03D8" Value="Item 984"/>
-        <local:Item Key="item03D9" Value="Item 985"/>
-        <local:Item Key="item03DA" Value="Item 986"/>
-        <local:Item Key="item03DB" Value="Item 987"/>
-        <local:Item Key="item03DC" Value="Item 988"/>
-        <local:Item Key="item03DD" Value="Item 989"/>
-        <local:Item Key="item03DE" Value="Item 990"/>
+        <local:Item Key="item03D3" Value="Leshen Claw"/>
+        <local:Item Key="item03D4" Value="Ancient Leshen Claw"/>
+        <local:Item Key="item03D5" Value="Leshen Skull"/>
+        <local:Item Key="item03D6" Value="Ancient Leshen Skull"/>
+        <local:Item Key="item03D7" Value="Cursed Bone"/>
+        <local:Item Key="item03D8" Value="Ancient Cursed Bone"/>
+        <local:Item Key="item03D9" Value="Leshen Antlers"/>
+        <local:Item Key="item03DA" Value="Ancient Leshen Antlers"/>
+        <local:Item Key="item03DB" Value="Leshen Resin"/>
+        <local:Item Key="item03DC" Value="Mutagen"/>
+        <local:Item Key="item03DD" Value="Necker Card (Weapon)"/>
+        <local:Item Key="item03DE" Value="Necker Card (Armor)"/>
         <local:Item Key="item03DF" Value="Item 991"/>
         <local:Item Key="item03E0" Value="Item 992"/>
         <local:Item Key="item03E1" Value="Item 993"/>

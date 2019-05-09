@@ -977,13 +977,13 @@
         <local:Item Key="item03B7" Value="幼小仙人掌"/>
         <local:Item Key="item03B8" Value="黃金片碎片"/>
         <local:Item Key="item03B9" Value="黃金片塊"/>
-        <local:Item Key="item03BA" Value="Item 954"/>
+        <local:Item Key="item03BA" Value="Blossom Ticket"/>
         <local:Item Key="item03BB" Value="賽努的發翔羽"/>
-        <local:Item Key="item03BC" Value="Item 956"/>
-        <local:Item Key="item03BD" Value="Item 957"/>
-        <local:Item Key="item03BE" Value="Item 958"/>
-        <local:Item Key="item03BF" Value="Item 959"/>
-        <local:Item Key="item03C0" Value="Item 960"/>
+        <local:Item Key="item03BC" Value="Hunter Runestone"/>
+        <local:Item Key="item03BD" Value="Hunter Runestone"/>
+        <local:Item Key="item03BE" Value="Necker"/>
+        <local:Item Key="item03BF" Value="Brigade Ticket"/>
+        <local:Item Key="item03C0" Value="Guild Cross Ticket"/>
         <local:Item Key="item03C1" Value="鬆軟票"/>
         <local:Item Key="item03C2" Value="硬梆梆票"/>
         <local:Item Key="item03C3" Value="第一期團票"/>
@@ -1002,18 +1002,18 @@
         <local:Item Key="item03D0" Value="Item 976"/>
         <local:Item Key="item03D1" Value="帶有灼熱的武器"/>
         <local:Item Key="item03D2" Value="絢輝龍的帝王金塊"/>
-        <local:Item Key="item03D3" Value="Item 979"/>
-        <local:Item Key="item03D4" Value="Item 980"/>
-        <local:Item Key="item03D5" Value="Item 981"/>
-        <local:Item Key="item03D6" Value="Item 982"/>
-        <local:Item Key="item03D7" Value="Item 983"/>
-        <local:Item Key="item03D8" Value="Item 984"/>
-        <local:Item Key="item03D9" Value="Item 985"/>
-        <local:Item Key="item03DA" Value="Item 986"/>
-        <local:Item Key="item03DB" Value="Item 987"/>
-        <local:Item Key="item03DC" Value="Item 988"/>
-        <local:Item Key="item03DD" Value="Item 989"/>
-        <local:Item Key="item03DE" Value="Item 990"/>
+        <local:Item Key="item03D3" Value="Leshen Claw"/>
+        <local:Item Key="item03D4" Value="Ancient Leshen Claw"/>
+        <local:Item Key="item03D5" Value="Leshen Skull"/>
+        <local:Item Key="item03D6" Value="Ancient Leshen Skull"/>
+        <local:Item Key="item03D7" Value="Cursed Bone"/>
+        <local:Item Key="item03D8" Value="Ancient Cursed Bone"/>
+        <local:Item Key="item03D9" Value="Leshen Antlers"/>
+        <local:Item Key="item03DA" Value="Ancient Leshen Antlers"/>
+        <local:Item Key="item03DB" Value="Leshen Resin"/>
+        <local:Item Key="item03DC" Value="Mutagen"/>
+        <local:Item Key="item03DD" Value="Necker Card (Weapon)"/>
+        <local:Item Key="item03DE" Value="Necker Card (Armor)"/>
         <local:Item Key="item03DF" Value="Item 991"/>
         <local:Item Key="item03E0" Value="Item 992"/>
         <local:Item Key="item03E1" Value="Item 993"/>
