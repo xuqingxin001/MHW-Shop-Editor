@@ -943,7 +943,7 @@
         <local:Item Key="item0394" Value="幻獸票"/>
         <local:Item Key="item0395" Value="炎王龍票"/>
         <local:Item Key="item0396" Value="鋼龍票"/>
-        <local:Item Key="item0397" Value="Item 919"/>
+        <local:Item Key="item0397" Value="滅盡龍票"/>
         <local:Item Key="item0398" Value="熔山龍票"/>
         <local:Item Key="item0399" Value="冥燈龍票"/>
         <local:Item Key="item039A" Value="黑色繃帶"/>
@@ -978,13 +978,13 @@
         <local:Item Key="item03B7" Value="幼小仙人掌"/>
         <local:Item Key="item03B8" Value="黃金片碎片"/>
         <local:Item Key="item03B9" Value="黃金片塊"/>
-        <local:Item Key="item03BA" Value="Blossom Ticket"/>
+        <local:Item Key="item03BA" Value="巴魯特票"/>
         <local:Item Key="item03BB" Value="賽努的發翔羽"/>
-        <local:Item Key="item03BC" Value="Hunter Runestone"/>
-        <local:Item Key="item03BD" Value="Hunter Runestone"/>
-        <local:Item Key="item03BE" Value="Necker"/>
-        <local:Item Key="item03BF" Value="Brigade Ticket"/>
-        <local:Item Key="item03C0" Value="Guild Cross Ticket"/>
+        <local:Item Key="item03BC" Value="獵人的符文石"/>
+        <local:Item Key="item03BD" Value="獵人的符文石"/>
+        <local:Item Key="item03BE" Value="孽鬼"/>
+        <local:Item Key="item03BF" Value="旅團票"/>
+        <local:Item Key="item03C0" Value="公會十字票"/>
         <local:Item Key="item03C1" Value="鬆軟票"/>
         <local:Item Key="item03C2" Value="硬梆梆票"/>
         <local:Item Key="item03C3" Value="第一期團票"/>
@@ -1003,18 +1003,18 @@
         <local:Item Key="item03D0" Value="Item 976"/>
         <local:Item Key="item03D1" Value="帶有灼熱的武器"/>
         <local:Item Key="item03D2" Value="絢輝龍的帝王金塊"/>
-        <local:Item Key="item03D3" Value="Leshen Claw"/>
-        <local:Item Key="item03D4" Value="Ancient Leshen Claw"/>
-        <local:Item Key="item03D5" Value="Leshen Skull"/>
-        <local:Item Key="item03D6" Value="Ancient Leshen Skull"/>
-        <local:Item Key="item03D7" Value="Cursed Bone"/>
-        <local:Item Key="item03D8" Value="Ancient Cursed Bone"/>
-        <local:Item Key="item03D9" Value="Leshen Antlers"/>
-        <local:Item Key="item03DA" Value="Ancient Leshen Antlers"/>
-        <local:Item Key="item03DB" Value="Leshen Resin"/>
-        <local:Item Key="item03DC" Value="Mutagen"/>
-        <local:Item Key="item03DD" Value="Necker Card (Weapon)"/>
-        <local:Item Key="item03DE" Value="Necker Card (Armor)"/>
+        <local:Item Key="item03D3" Value="鹿首精的木爪"/>
+        <local:Item Key="item03D4" Value="鹿首精的樹爪"/>
+        <local:Item Key="item03D5" Value="鹿首精的討伐之證"/>
+        <local:Item Key="item03D6" Value="古代鹿首精的討伐之證"/>
+        <local:Item Key="item03D7" Value="怪物的咒骨"/>
+        <local:Item Key="item03D8" Value="怪物的古代咒骨"/>
+        <local:Item Key="item03D9" Value="鹿首精的咒角"/>
+        <local:Item Key="item03DA" Value="鹿首精的古代咒角"/>
+        <local:Item Key="item03DB" Value="鹿首精的樹脂"/>
+        <local:Item Key="item03DC" Value="突變誘發劑"/>
+        <local:Item Key="item03DD" Value="孽鬼卡片(攻)"/>
+        <local:Item Key="item03DE" Value="孽鬼卡片(守)"/>
         <local:Item Key="item03DF" Value="Item 991"/>
         <local:Item Key="item03E0" Value="Item 992"/>
         <local:Item Key="item03E1" Value="Item 993"/>
