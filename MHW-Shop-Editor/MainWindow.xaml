@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MHWShopEditor"
-        mc:Ignorable="d" Height="450" Width="800" Title="{DynamicResource title}">
+        mc:Ignorable="d" Height="460.5" Width="800" Title="{DynamicResource title}">
     <Grid>
         <Button Content="{DynamicResource default}" HorizontalAlignment="Left" Margin="610,52,0,0" VerticalAlignment="Top" Click="DefaultItems"/>
         <Button Content="{DynamicResource gems}" HorizontalAlignment="Left" Margin="610,98,0,0" VerticalAlignment="Top" Click="AllGems" />
@@ -42,7 +42,9 @@
             <TextBox Height="23" TextWrapping="Wrap" Name="OutputFilter" Text="{Binding filterOutputText, UpdateSourceTrigger=PropertyChanged}"/>
             <ListBox Height="348" Name="output" SelectionMode="Extended" ItemsSource="{Binding filteredOutput}" MouseDoubleClick="OutputDoubleClick"/>
         </StackPanel>
-        <TextBlock HorizontalAlignment="Left" Margin="536,379,0,0" TextWrapping="Wrap" Text="{Binding Mode=OneWay, Source={StaticResource count}}" VerticalAlignment="Top" Width="66"/>
-        <TextBlock Name="itemCount" HorizontalAlignment="Left" Margin="607,379,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="23"/>
+        <TextBlock HorizontalAlignment="Left" Margin="369,403,0,0" TextWrapping="Wrap" Text="{Binding Mode=OneWay, Source={StaticResource count}}" VerticalAlignment="Top" Width="66" RenderTransformOrigin="0.97,0.407"/>
+        <TextBlock Name="itemCount" HorizontalAlignment="Left" Margin="435,403,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="23"/>
+        <TextBlock HorizontalAlignment="Left" Margin="82,403,0,0" TextWrapping="Wrap" Text="{Binding Mode=OneWay, Source={StaticResource results}}" VerticalAlignment="Top" Width="66" RenderTransformOrigin="0.97,0.407"/>
+        <TextBlock x:Name="results" HorizontalAlignment="Left" Margin="125,403,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="41" Text="{Binding filteredInput.Count}"/>
     </Grid>
 </Window>

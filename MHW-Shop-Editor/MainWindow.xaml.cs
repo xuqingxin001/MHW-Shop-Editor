@@ -316,9 +316,11 @@ namespace MHWShopEditor
             {
                 if (String.IsNullOrEmpty(inputFilterText))
                 {
+                    results.Text = listBoxIn.Count().ToString();
                     return new ObservableCollection<Item>(listBoxIn);
                 }
                 var filtered = listBoxIn.Where(x => x.Value.ToUpper().Contains(inputFilterText.ToUpper()));
+                results.Text = filtered.Count().ToString();
                 return new ObservableCollection<Item>(filtered);
             }
         }
