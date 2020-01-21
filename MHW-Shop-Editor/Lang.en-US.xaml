@@ -11,7 +11,7 @@
     <system:String x:Key="save">Save</system:String>
     <system:String x:Key="lang">Language</system:String>
     <system:String x:Key="default">Default Items</system:String>
-    <system:String x:Key="gems">All Gems</system:String>
+    <system:String x:Key="hrgems">HR Gems</system:String>
     <system:String x:Key="clear">Clear Items</system:String>
     <system:String x:Key="consumables">Consumables</system:String>
     <system:String x:Key="lr_mats">LR Materials</system:String>
@@ -19,6 +19,11 @@
     <system:String x:Key="settings">Settings</system:String>
     <system:String x:Key="insertTop">Insert to Top</system:String>
     <system:String x:Key="insertBottom">Insert to Bottom</system:String>
+    <system:String x:Key="sortID">Sort by ID</system:String>
+    <system:String x:Key="sortName">Sort by Name</system:String>
+    <system:String x:Key="filterContains">Contains Word</system:String>
+    <system:String x:Key="filterWhole">Match Word</system:String>
+    <system:String x:Key="filterHide">Hide Matching</system:String>
     <system:String x:Key="count">Item Count:</system:String>
     <system:String x:Key="results">Results:</system:String>
 
@@ -950,12 +955,12 @@
         <local:Item Key="item039B" Value="Black Crystal Ticket"/>
         <local:Item Key="item039C" Value="Kulu-Ya-Ku Ticket"/>
         <local:Item Key="item039D" Value="Wiggler Ticket"/>
-        <local:Item Key="item039E" Value="Item 926"/>
-        <local:Item Key="item039F" Value="Item 927"/>
+        <!-- <local:Item Key="item039E" Value="HARDUMMY"/>
+        <local:Item Key="item039F" Value="HARDUMMY"/> -->
         <local:Item Key="item03A0" Value="Mega Man Ticket"/>
-        <local:Item Key="item03A1" Value="Item 929"/>
-        <local:Item Key="item03A2" Value="Item 930"/>
-        <local:Item Key="item03A3" Value="Item 931"/>
+        <!-- <local:Item Key="item03A1" Value="HARDUMMY"/>
+        <local:Item Key="item03A2" Value="HARDUMMY"/>
+        <local:Item Key="item03A3" Value="HARDUMMY"/> -->
         <local:Item Key="item03A4" Value="Azure Star Shard"/>
         <local:Item Key="item03A5" Value="Azure Stargem"/>
         <local:Item Key="item03A6" Value="Red Orb"/>
@@ -1000,7 +1005,7 @@
         <local:Item Key="item03CD" Value="Item 973"/>
         <local:Item Key="item03CE" Value="Item 974"/>
         <local:Item Key="item03CF" Value="Glamour Prism"/>
-        <local:Item Key="item03D0" Value="Item 976"/>
+        <!-- <local:Item Key="item03D0" Value="HARDUMMY"/> -->
         <local:Item Key="item03D1" Value="Incandescent Weapon"/>
         <local:Item Key="item03D2" Value="Kulve Taroth Emperor Nugget"/>
         <local:Item Key="item03D3" Value="Leshen Claw"/>

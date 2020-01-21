@@ -7,7 +7,7 @@
         mc:Ignorable="d" Height="460.5" Width="800" Title="{DynamicResource title}">
     <Grid>
         <Button Content="{DynamicResource default}" HorizontalAlignment="Left" Margin="610,52,0,0" VerticalAlignment="Top" Click="DefaultItems"/>
-        <Button Content="{DynamicResource gems}" HorizontalAlignment="Left" Margin="610,98,0,0" VerticalAlignment="Top" Click="AllGems" />
+        <Button Content="{DynamicResource hrgems}" HorizontalAlignment="Left" Margin="610,98,0,0" VerticalAlignment="Top" Click="HRGems" />
         <Button Content="{DynamicResource consumables}" HorizontalAlignment="Left" Margin="610,144,0,0" VerticalAlignment="Top" Click="AllConsumables"/>
         <Button Content="{DynamicResource lr_mats}" HorizontalAlignment="Left" Margin="610,190,0,0" VerticalAlignment="Top" Click="LRMaterials"/>
         <Button Content="{DynamicResource hr_mats}" HorizontalAlignment="Left" Margin="610,236,0,0" VerticalAlignment="Top" Click="HRMaterials"/>
@@ -18,9 +18,18 @@
                 <MenuItem Header="{DynamicResource save}" HorizontalAlignment="Left" Height="30" Width="140" Click="SaveFile"/>
             </MenuItem>
             <MenuItem Header="{DynamicResource settings}" Height="19" Width="100">
-                <ComboBox Width="120" SelectionChanged="InsertMethodChanged" Name="Settings">
+                <ComboBox Width="120" SelectionChanged="InsertMethodChanged" Name="InsertMethod">
                     <ComboBoxItem Content="{DynamicResource insertTop}" HorizontalAlignment="Left" Width="118"/>
                     <ComboBoxItem Content="{DynamicResource insertBottom}" HorizontalAlignment="Left" Width="118"/>
+                </ComboBox>
+                <ComboBox Width="120" SelectionChanged="SortMethodChanged" Name="SortMethod">
+                    <ComboBoxItem Content="{DynamicResource sortID}" HorizontalAlignment="Left" Width="118"/>
+                    <ComboBoxItem Content="{DynamicResource sortName}" HorizontalAlignment="Left" Width="118"/>
+                </ComboBox>
+                <ComboBox Width="120" SelectionChanged="FilterMethodChanged" Name="FilterMethod">
+                    <ComboBoxItem Content="{DynamicResource filterContains}" HorizontalAlignment="Left" Width="118"/>
+                    <ComboBoxItem Content="{DynamicResource filterWhole}" HorizontalAlignment="Left" Width="118"/>
+                    <ComboBoxItem Content="{DynamicResource filterHide}" HorizontalAlignment="Left" Width="118"/>
                 </ComboBox>
             </MenuItem>
             <MenuItem Header="{DynamicResource lang}" Height="19" Width="100">

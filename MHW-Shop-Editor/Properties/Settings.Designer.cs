@@ -58,5 +58,29 @@ namespace MHWShopEditor.Properties {
                 this["Language"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int SortMethod {
+            get {
+                return ((int)(this["SortMethod"]));
+            }
+            set {
+                this["SortMethod"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int FilterMethod {
+            get {
+                return ((int)(this["FilterMethod"]));
+            }
+            set {
+                this["FilterMethod"] = value;
+            }
+        }
     }
 }
