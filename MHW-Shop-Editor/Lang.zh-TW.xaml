@@ -12,10 +12,15 @@
     <system:String x:Key="lang">語言</system:String>
     <system:String x:Key="default">預設物品</system:String>
     <system:String x:Key="hrgems">HR Gems</system:String>
+    <system:String x:Key="plusgems">Jewel+ Gems</system:String>
+    <system:String x:Key="fourgems">Jewel 4 Gems</system:String>
     <system:String x:Key="clear">全部清空</system:String>
     <system:String x:Key="consumables">消耗品</system:String>
     <system:String x:Key="lr_mats">下級素材</system:String>
     <system:String x:Key="hr_mats">上級素材</system:String>
+    <system:String x:Key="mr_mats">MR Materials</system:String>
+    <system:String x:Key="mr_parts">MR Parts</system:String>
+    <system:String x:Key="gl_mats">GL Parts</system:String>
     <system:String x:Key="settings">設定</system:String>
     <system:String x:Key="insertTop">插入最頂</system:String>
     <system:String x:Key="insertBottom">插入最底</system:String>

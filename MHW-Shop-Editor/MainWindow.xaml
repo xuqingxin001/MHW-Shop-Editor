@@ -6,12 +6,17 @@
         xmlns:local="clr-namespace:MHWShopEditor"
         mc:Ignorable="d" Height="460.5" Width="800" Title="{DynamicResource title}">
     <Grid>
-        <Button Content="{DynamicResource default}" HorizontalAlignment="Left" Margin="610,52,0,0" VerticalAlignment="Top" Click="DefaultItems"/>
-        <Button Content="{DynamicResource hrgems}" HorizontalAlignment="Left" Margin="610,98,0,0" VerticalAlignment="Top" Click="HRGems" />
-        <Button Content="{DynamicResource consumables}" HorizontalAlignment="Left" Margin="610,144,0,0" VerticalAlignment="Top" Click="AllConsumables"/>
-        <Button Content="{DynamicResource lr_mats}" HorizontalAlignment="Left" Margin="610,190,0,0" VerticalAlignment="Top" Click="LRMaterials"/>
-        <Button Content="{DynamicResource hr_mats}" HorizontalAlignment="Left" Margin="610,236,0,0" VerticalAlignment="Top" Click="HRMaterials"/>
-        <Button Content="{DynamicResource clear}" HorizontalAlignment="Left" Margin="610,282,0,0" VerticalAlignment="Top" Click="ClearItems" />
+        <Button Content="{DynamicResource default}" HorizontalAlignment="Left" Margin="619,52,0,0" VerticalAlignment="Top" Click="DefaultItems" Width="75"/>
+        <Button Content="{DynamicResource hrgems}" HorizontalAlignment="Left" Margin="540,127,0,0" VerticalAlignment="Top" Click="HRGems" Width="75"/>
+        <Button Content="{DynamicResource plusgems}" HorizontalAlignment="Left" Margin="620,127,0,0" VerticalAlignment="Top" Click="PlusGems" Width="75"/>
+        <Button Content="{DynamicResource fourgems}" HorizontalAlignment="Left" Margin="700,127,0,0" VerticalAlignment="Top" Click="FourGems" Width="75"/>
+        <Button Content="{DynamicResource consumables}" HorizontalAlignment="Left" Margin="619,88,0,0" VerticalAlignment="Top" Click="AllConsumables" Width="75"/>
+        <Button Content="{DynamicResource lr_mats}" HorizontalAlignment="Left" Margin="540,169,0,0" VerticalAlignment="Top" Click="LRMaterials" Width="75"/>
+        <Button Content="{DynamicResource hr_mats}" HorizontalAlignment="Left" Margin="620,169,0,0" VerticalAlignment="Top" Click="HRMaterials" Width="75"/>
+        <Button Content="{DynamicResource mr_mats}" HorizontalAlignment="Left" Margin="700,169,0,0" VerticalAlignment="Top" Click="MRMaterials" Width="75"/>
+        <Button Content="{DynamicResource mr_parts}" HorizontalAlignment="Left" Margin="580,207,0,0" VerticalAlignment="Top" Click="MRParts" Width="75"/>
+        <Button Content="{DynamicResource gl_mats}" HorizontalAlignment="Left" Margin="660,207,0,0" VerticalAlignment="Top" Click="GLMaterials" Width="75"/>
+        <Button Content="{DynamicResource clear}" HorizontalAlignment="Left" Margin="620,244,0,0" VerticalAlignment="Top" Click="ClearItems" Width="75"/>
         <Menu HorizontalAlignment="Left" Height="19" VerticalAlignment="Top" Width="792">
             <MenuItem Header="{DynamicResource file}" Height="19" Width="100">
                 <MenuItem Header="{DynamicResource open}" HorizontalAlignment="Left" Height="30" Width="140" Click="OpenFile"/>
