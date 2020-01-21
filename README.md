@@ -1,6 +1,9 @@
 # MHW Shop List Editor
 Monster Hunter World Provisions Stockpile shop editor
 -------------------------------------------------------
+IMPORTANT:
+There are item IDs known to brick your save. They aren't included in the editor, but always BACK UP YOUR SAVE BEFORE USING! Be safe!
+
 !! Now Requires Stracker's Loader !!
 https://www.nexusmods.com/monsterhunterworld/mods/1982
 
