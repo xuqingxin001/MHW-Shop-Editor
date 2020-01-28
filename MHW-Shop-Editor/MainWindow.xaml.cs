@@ -178,20 +178,47 @@ namespace MHWShopEditor
 
                 switch (((sender as ComboBox).SelectedItem as ComboBoxItem).Tag.ToString())
                 {
-                    case "en-US":
-                        dict.Source = new Uri("Lang.en-US.xaml", UriKind.Relative);
+                    case "ara":
+                        dict.Source = new Uri("Lang/ara.xaml", UriKind.Relative);
                         break;
-                    case "zh-TW":
-                        dict.Source = new Uri("Lang.zh-TW.xaml", UriKind.Relative);
+                    case "chS":
+                        dict.Source = new Uri("Lang/chS.xaml", UriKind.Relative);
                         break;
-                    //case "fr-FR":
-                    //dict.Source = new Uri("Lang.fr-FR.xaml", UriKind.Relative);
-                    //break;
-                    //case "es-ES":
-                    //dict.Source = new Uri("Lang.es-ES.xaml", UriKind.Relative);
-                    //break;
+                    case "chT":
+                        dict.Source = new Uri("Lang/chT.xaml", UriKind.Relative);
+                        break;
+                    case "eng":
+                        dict.Source = new Uri("Lang/eng.xaml", UriKind.Relative);
+                        break;
+                    case "fre":
+                        dict.Source = new Uri("Lang/fre.xaml", UriKind.Relative);
+                        break;
+                    case "ger":
+                        dict.Source = new Uri("Lang/ger.xaml", UriKind.Relative);
+                        break;
+                    case "ita":
+                        dict.Source = new Uri("Lang/ita.xaml", UriKind.Relative);
+                        break;
+                    case "jpn":
+                        dict.Source = new Uri("Lang/jpn.xaml", UriKind.Relative);
+                        break;
+                    case "kor":
+                        dict.Source = new Uri("Lang/kor.xaml", UriKind.Relative);
+                        break;
+                    case "pol":
+                        dict.Source = new Uri("Lang/pol.xaml", UriKind.Relative);
+                        break;
+                    case "ptB":
+                        dict.Source = new Uri("Lang/ptB.xaml", UriKind.Relative);
+                        break;
+                    case "rus":
+                        dict.Source = new Uri("Lang/rus.xaml", UriKind.Relative);
+                        break;
+                    case "spa":
+                        dict.Source = new Uri("Lang/spa.xaml", UriKind.Relative);
+                        break;
                     default:
-                        break;
+                            break;
                 }
                 Application.Current.Resources.MergedDictionaries.Add(dict);
                 hiddenList = (Item[])Application.Current.FindResource("itemsList");

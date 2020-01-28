@@ -960,12 +960,12 @@
         <local:Item Key="item039B" Value="Black Crystal Ticket"/>
         <local:Item Key="item039C" Value="Kulu-Ya-Ku Ticket"/>
         <local:Item Key="item039D" Value="Wiggler Ticket"/>
-        <!-- <local:Item Key="item039E" Value="HARDUMMY"/>
-        <local:Item Key="item039F" Value="HARDUMMY"/> -->
+        <!-- <local:Item Key="item039E" Value="HARDUMMY"/> -->
+        <!-- <local:Item Key="item039F" Value="HARDUMMY"/> -->
         <local:Item Key="item03A0" Value="Mega Man Ticket"/>
-        <!-- <local:Item Key="item03A1" Value="HARDUMMY"/>
-        <local:Item Key="item03A2" Value="HARDUMMY"/>
-        <local:Item Key="item03A3" Value="HARDUMMY"/> -->
+        <!-- <local:Item Key="item03A1" Value="HARDUMMY"/> -->
+        <!-- <local:Item Key="item03A2" Value="HARDUMMY"/> -->
+        <!-- <local:Item Key="item03A3" Value="HARDUMMY"/> -->
         <local:Item Key="item03A4" Value="Azure Star Shard"/>
         <local:Item Key="item03A5" Value="Azure Stargem"/>
         <local:Item Key="item03A6" Value="Red Orb"/>

@@ -39,10 +39,19 @@
             </MenuItem>
             <MenuItem Header="{DynamicResource lang}" Height="19" Width="100">
                 <ComboBox Width="120" SelectionChanged="LanguageChanged" Name="Language">
-                    <ComboBoxItem Content="English" Tag="en-US"/>
-                    <!-- <ComboBoxItem Content="Español" Tag="es-ES"/>
-                    <ComboBoxItem Content="Français" Tag="fr-FR"/> -->
-                    <ComboBoxItem Content="繁體中文" Tag="zh-TW"/>
+                    <ComboBoxItem Content="Arabic" Tag="ara"/>
+                    <ComboBoxItem Content="Chinese (S)" Tag="chS"/>
+                    <ComboBoxItem Content="Chinese (T)" Tag="chT"/>
+                    <ComboBoxItem Content="English" Tag="eng"/>
+                    <ComboBoxItem Content="French" Tag="fre"/>
+                    <ComboBoxItem Content="German" Tag="ger"/>
+                    <ComboBoxItem Content="Italian" Tag="ita"/>
+                    <ComboBoxItem Content="Japanese" Tag="jpn"/>
+                    <ComboBoxItem Content="Korean" Tag="kor"/>
+                    <ComboBoxItem Content="Polish" Tag="pol"/>
+                    <ComboBoxItem Content="Portuguese (B)" Tag="ptB"/>
+                    <ComboBoxItem Content="Russian" Tag="rus"/>
+                    <ComboBoxItem Content="Spanish" Tag="spa"/>
                 </ComboBox>
             </MenuItem>
         </Menu>
