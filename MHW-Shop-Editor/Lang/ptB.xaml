@@ -960,12 +960,12 @@
         <local:Item Key="item039B" Value="Bilhete de Cristal Negro"/>
         <local:Item Key="item039C" Value="Bilhete Kulu-Ya-Ku"/>
         <local:Item Key="item039D" Value="Bilhete de Treme-treme"/>
-        <!-- <local:Item Key="item039E" Value="HARDUMMY"/> -->
-        <!-- <local:Item Key="item039F" Value="HARDUMMY"/> -->
+        <local:Item Key="item039E" Value="HARDUMMY"/>
+        <local:Item Key="item039F" Value="HARDUMMY"/>
         <local:Item Key="item03A0" Value="Bilhete Mega Man"/>
-        <!-- <local:Item Key="item03A1" Value="HARDUMMY"/> -->
-        <!-- <local:Item Key="item03A2" Value="HARDUMMY"/> -->
-        <!-- <local:Item Key="item03A3" Value="HARDUMMY"/> -->
+        <local:Item Key="item03A1" Value="HARDUMMY"/>
+        <local:Item Key="item03A2" Value="HARDUMMY"/>
+        <local:Item Key="item03A3" Value="HARDUMMY"/>
         <local:Item Key="item03A4" Value="Fragmento de Estrela Lazúli"/>
         <local:Item Key="item03A5" Value="Joia Estelar Lazúli"/>
         <local:Item Key="item03A6" Value="Orbe Vermelho"/>
@@ -1010,7 +1010,7 @@
         <local:Item Key="item03CD" Value="Unavailable"/>
         <local:Item Key="item03CE" Value="Unavailable"/>
         <local:Item Key="item03CF" Value="Prisma do Fascínio"/>
-        <!-- <local:Item Key="item03D0" Value="HARDUMMY"/> -->
+        <local:Item Key="item03D0" Value="HARDUMMY"/>
         <local:Item Key="item03D1" Value="Arma Incandescente"/>
         <local:Item Key="item03D2" Value="Pepita Imperatriz Kulve Taroth"/>
         <local:Item Key="item03D3" Value="Garra de Liche"/>
@@ -1362,13 +1362,13 @@
         <local:Item Key="item052D" Value="Açoite de Deviljho"/>
         <local:Item Key="item052E" Value="Sangue Preto"/>
         <local:Item Key="item052F" Value="Torciscama de Deviljho"/>
-        <local:Item Key="item0530" Value="Unavailable"/>
-        <local:Item Key="item0531" Value="Unavailable"/>
-        <local:Item Key="item0532" Value="Unavailable"/>
-        <local:Item Key="item0533" Value="Unavailable"/>
-        <local:Item Key="item0534" Value="Unavailable"/>
+        <local:Item Key="item0530" Value="Pelicabrava de Rajang"/>
+        <local:Item Key="item0531" Value="Presadura de Rajang"/>
+        <local:Item Key="item0532" Value="Garrígida de Rajang"/>
+        <local:Item Key="item0533" Value="Cauda de Rajang"/>
+        <local:Item Key="item0534" Value="Pelica Dourada de Rajang+"/>
         <local:Item Key="item0535" Value="Unavailable"/>
-        <local:Item Key="item0536" Value="Unavailable"/>
+        <local:Item Key="item0536" Value="Chifroduro de Rajang"/>
         <local:Item Key="item0537" Value="Unavailable"/>
         <local:Item Key="item0538" Value="Unavailable"/>
         <local:Item Key="item0539" Value="Courofino de Kirin"/>
@@ -1505,7 +1505,7 @@
         <local:Item Key="item05BC" Value="Toupeirinha Rochosa"/>
         <local:Item Key="item05BD" Value="Toupeirinha Peluda"/>
         <local:Item Key="item05BE" Value="Toupeirinha Espinhenta"/>
-        <local:Item Key="item05BF" Value="Unavailable"/>
+        <local:Item Key="item05BF" Value="Toupeirinha Selvagem"/>
         <local:Item Key="item05C0" Value="Unavailable"/>
         <local:Item Key="item05C1" Value="Grande Parexus Vítreo"/>
         <local:Item Key="item05C2" Value="Unavailable"/>
@@ -1518,29 +1518,29 @@
         <local:Item Key="item05C9" Value="Cortina de pano (pequena)"/>
         <local:Item Key="item05CA" Value="Cortina de pelica (pequena)"/>
         <local:Item Key="item05CB" Value="Cortina elegante (pequena)"/>
-        <local:Item Key="item05CC" Value="Unavailable"/>
+        <local:Item Key="item05CC" Value="Cortina fofa (pequena)"/>
         <local:Item Key="item05CD" Value="Cortina de pano (grande)"/>
         <local:Item Key="item05CE" Value="Cortina de pelica (grande)"/>
         <local:Item Key="item05CF" Value="Cortina elegante (grande)"/>
-        <local:Item Key="item05D0" Value="Unavailable"/>
+        <local:Item Key="item05D0" Value="Cortina fofa (grande)"/>
         <local:Item Key="item05D1" Value="Sofá familiar"/>
         <local:Item Key="item05D2" Value="Unavailable"/>
         <local:Item Key="item05D3" Value="Sofá de luxo"/>
         <local:Item Key="item05D4" Value="Sofá elegante"/>
-        <local:Item Key="item05D5" Value="Unavailable"/>
+        <local:Item Key="item05D5" Value="Sofá fofo"/>
         <local:Item Key="item05D6" Value="Cama rústica"/>
         <local:Item Key="item05D7" Value="Cama familiar"/>
         <local:Item Key="item05D8" Value="Cama de luxo"/>
-        <local:Item Key="item05D9" Value="Unavailable"/>
+        <local:Item Key="item05D9" Value="Cama fofa"/>
         <local:Item Key="item05DA" Value="Mesa familiar"/>
         <local:Item Key="item05DB" Value="Mesa de luxo"/>
         <local:Item Key="item05DC" Value="Mesa elegante"/>
-        <local:Item Key="item05DD" Value="Unavailable"/>
+        <local:Item Key="item05DD" Value="Mesa fofa"/>
         <local:Item Key="item05DE" Value="Cadeiras rústicas"/>
         <local:Item Key="item05DF" Value="Cadeiras familiares"/>
         <local:Item Key="item05E0" Value="Cadeiras de luxo"/>
         <local:Item Key="item05E1" Value="Cadeiras elegantes"/>
-        <local:Item Key="item05E2" Value="Unavailable"/>
+        <local:Item Key="item05E2" Value="Cadeiras fofas"/>
         <local:Item Key="item05E3" Value="Carnaval Carnívoro"/>
         <local:Item Key="item05E4" Value="Prato de Festa"/>
         <local:Item Key="item05E5" Value="Almoço Tropical"/>
@@ -1548,13 +1548,13 @@
         <local:Item Key="item05E7" Value="Brunch do Caçador"/>
         <local:Item Key="item05E8" Value="Baú familiar"/>
         <local:Item Key="item05E9" Value="Baú de luxo"/>
-        <local:Item Key="item05EA" Value="Unavailable"/>
+        <local:Item Key="item05EA" Value="Baú fofo"/>
         <local:Item Key="item05EB" Value="Planta da Fronteira Glacial 1"/>
         <local:Item Key="item05EC" Value="Planta da Fronteira Glacial 2"/>
         <local:Item Key="item05ED" Value="Unavailable"/>
         <local:Item Key="item05EE" Value="Planta da Fronteira Glacial 3"/>
         <local:Item Key="item05EF" Value="Planta da Floresta Ancestral 1"/>
-        <local:Item Key="item05F0" Value="Unavailable"/>
+        <local:Item Key="item05F0" Value="Planta do Ermo Selvagulha 3"/>
         <local:Item Key="item05F1" Value="Planta da Floresta Ancestral 4"/>
         <local:Item Key="item05F2" Value="Planta da Floresta Ancestral 5"/>
         <local:Item Key="item05F3" Value="Planta da Floresta Ancestral 3"/>
@@ -1562,7 +1562,7 @@
         <local:Item Key="item05F5" Value="Unavailable"/>
         <local:Item Key="item05F6" Value="Planta do Ermo Selvagulha 1"/>
         <local:Item Key="item05F7" Value="Planta da Floresta Ancestral 2"/>
-        <local:Item Key="item05F8" Value="Unavailable"/>
+        <local:Item Key="item05F8" Value="Planta do Vale Putrefato 1"/>
         <local:Item Key="item05F9" Value="Unavailable"/>
         <local:Item Key="item05FA" Value="Urna simples"/>
         <local:Item Key="item05FB" Value="Boneca de Bychano"/>
@@ -1618,9 +1618,9 @@
         <local:Item Key="item062D" Value="Móbile de Peixotes-dourados"/>
         <local:Item Key="item062E" Value="Móbile de Peixes-amola"/>
         <local:Item Key="item062F" Value="Móbile de Marlins"/>
-        <local:Item Key="item0630" Value="Unavailable"/>
-        <local:Item Key="item0631" Value="Unavailable"/>
-        <local:Item Key="item0632" Value="Unavailable"/>
+        <local:Item Key="item0630" Value="Ornamento Memorial"/>
+        <local:Item Key="item0631" Value="Ornamento Imperador"/>
+        <local:Item Key="item0632" Value="Ornamento de esferas divertidas"/>
         <local:Item Key="item0633" Value="Ornamento de barril"/>
         <local:Item Key="item0634" Value="Ornamento de pesca do dia"/>
         <local:Item Key="item0635" Value="Ornamento de peixe"/>
@@ -1641,33 +1641,33 @@
         <local:Item Key="item0644" Value="Unavailable"/>
         <local:Item Key="item0645" Value="Escrivaninha familiar"/>
         <local:Item Key="item0646" Value="Escrivaninha de luxo"/>
-        <local:Item Key="item0647" Value="Unavailable"/>
+        <local:Item Key="item0647" Value="Escrivaninha fofa"/>
         <local:Item Key="item0648" Value="Estantes familiares"/>
         <local:Item Key="item0649" Value="Estantes de intelectual"/>
         <local:Item Key="item064A" Value="Estantes bagunçadas"/>
         <local:Item Key="item064B" Value="Estantes de luxo"/>
         <local:Item Key="item064C" Value="Estantes elegantes"/>
-        <local:Item Key="item064D" Value="Unavailable"/>
-        <local:Item Key="item064E" Value="Unavailable"/>
+        <local:Item Key="item064D" Value="Estantes fofas"/>
+        <local:Item Key="item064E" Value="Reprodutor de Música"/>
         <local:Item Key="item064F" Value="Abajures familiares"/>
         <local:Item Key="item0650" Value="Abajures robustos"/>
         <local:Item Key="item0651" Value="Abajures de luxo"/>
-        <local:Item Key="item0652" Value="Unavailable"/>
+        <local:Item Key="item0652" Value="Luzes fofas"/>
         <local:Item Key="item0653" Value="Abajures simples"/>
         <local:Item Key="item0654" Value="Unavailable"/>
         <local:Item Key="item0655" Value="Unavailable"/>
         <local:Item Key="item0656" Value="Unavailable"/>
         <local:Item Key="item0657" Value="Rack familiar"/>
         <local:Item Key="item0658" Value="Rack de luxo"/>
-        <local:Item Key="item0659" Value="Unavailable"/>
+        <local:Item Key="item0659" Value="Rack fofo"/>
         <local:Item Key="item065A" Value="Prateleira simples (grande)"/>
         <local:Item Key="item065B" Value="Prateleira de luxo (grande)"/>
-        <local:Item Key="item065C" Value="Unavailable"/>
+        <local:Item Key="item065C" Value="Prateleira fofa (grande)"/>
         <local:Item Key="item065D" Value="Prateleira simples (pequena)"/>
         <local:Item Key="item065E" Value="Prateleira de luxo (pequena)"/>
-        <local:Item Key="item065F" Value="Unavailable"/>
-        <local:Item Key="item0660" Value="Unavailable"/>
-        <local:Item Key="item0661" Value="Unavailable"/>
+        <local:Item Key="item065F" Value="Prateleira fofa (pequena)"/>
+        <local:Item Key="item0660" Value="Enfeite parede elegante (vermelho)"/>
+        <local:Item Key="item0661" Value="Enfeite de parede elegante (azul)"/>
         <local:Item Key="item0662" Value="Quadro de Zorah Magdaros"/>
         <local:Item Key="item0663" Value="Enfeite de parede de pano"/>
         <local:Item Key="item0664" Value="Enfeite de parede de pelo"/>
@@ -1684,18 +1684,18 @@
         <local:Item Key="item066F" Value="Quadro da Fronteira Glacial"/>
         <local:Item Key="item0670" Value="Livros e documentos"/>
         <local:Item Key="item0671" Value="Petiscos saudáveis"/>
-        <local:Item Key="item0672" Value="Unavailable"/>
+        <local:Item Key="item0672" Value="Conj. Criação de Boneca de Pelúcia"/>
         <local:Item Key="item0673" Value="Mapas"/>
         <local:Item Key="item0674" Value="Conjunto de criação"/>
         <local:Item Key="item0675" Value="Conjunto de assar"/>
         <local:Item Key="item0676" Value="Conjunto de ferramentas"/>
         <local:Item Key="item0677" Value="Tapetes familiares (A1)"/>
         <local:Item Key="item0678" Value="Tapetes de luxo (A1)"/>
-        <local:Item Key="item0679" Value="Unavailable"/>
+        <local:Item Key="item0679" Value="Tapetes fofos (A1)"/>
         <local:Item Key="item067A" Value="Tapetes de pelo (A1)"/>
         <local:Item Key="item067B" Value="Tapetes familiares (A2)"/>
         <local:Item Key="item067C" Value="Tapetes de luxo (A2)"/>
-        <local:Item Key="item067D" Value="Unavailable"/>
+        <local:Item Key="item067D" Value="Tapetes fofos (A2)"/>
         <local:Item Key="item067E" Value="Tapetes de pelo (A2)"/>
         <local:Item Key="item067F" Value="Lampião"/>
         <local:Item Key="item0680" Value="Unavailable"/>
@@ -1739,15 +1739,15 @@
         <local:Item Key="item06A6" Value="Unavailable"/>
         <local:Item Key="item06A7" Value="Unavailable"/>
         <local:Item Key="item06A8" Value="Unavailable"/>
-        <local:Item Key="item06A9" Value="Unavailable"/>
-        <local:Item Key="item06AA" Value="Unavailable"/>
+        <local:Item Key="item06A9" Value="Quadriculado (vibrante)"/>
+        <local:Item Key="item06AA" Value="Quadriculado (verde)"/>
         <local:Item Key="item06AB" Value="Estampa de Amigato (rosa)"/>
         <local:Item Key="item06AC" Value="Estampa de Amigato (marrom)"/>
         <local:Item Key="item06AD" Value="Unavailable"/>
         <local:Item Key="item06AE" Value="Unavailable"/>
-        <local:Item Key="item06AF" Value="Unavailable"/>
-        <local:Item Key="item06B0" Value="Unavailable"/>
-        <local:Item Key="item06B1" Value="Unavailable"/>
+        <local:Item Key="item06AF" Value="Estampa vida: pequena (branca)"/>
+        <local:Item Key="item06B0" Value="Estampa vida: pequena (azul)"/>
+        <local:Item Key="item06B1" Value="Estampa vida: pequena (rosa)"/>
         <local:Item Key="item06B2" Value="Unavailable"/>
         <local:Item Key="item06B3" Value="Unavailable"/>
         <local:Item Key="item06B4" Value="Unavailable"/>
@@ -1764,30 +1764,30 @@
         <local:Item Key="item06BF" Value="Pedra"/>
         <local:Item Key="item06C0" Value="Lar, doce lar"/>
         <local:Item Key="item06C1" Value="Quarto tradicional"/>
-        <local:Item Key="item06C2" Value="Unavailable"/>
-        <local:Item Key="item06C3" Value="Unavailable"/>
+        <local:Item Key="item06C2" Value="Requinte"/>
+        <local:Item Key="item06C3" Value="Amante de doces"/>
         <local:Item Key="item06C4" Value="Unavailable"/>
         <local:Item Key="item06C5" Value="Unavailable"/>
         <local:Item Key="item06C6" Value="Piso de madeira"/>
         <local:Item Key="item06C7" Value="Piso de madeira chique"/>
         <local:Item Key="item06C8" Value="Piso de pedra simples"/>
-        <local:Item Key="item06C9" Value="Unavailable"/>
-        <local:Item Key="item06CA" Value="Unavailable"/>
+        <local:Item Key="item06C9" Value="Piso elegante (vermelho)"/>
+        <local:Item Key="item06CA" Value="Piso de pedra de luxo"/>
         <local:Item Key="item06CB" Value="Piso de mármore"/>
-        <local:Item Key="item06CC" Value="Unavailable"/>
-        <local:Item Key="item06CD" Value="Unavailable"/>
-        <local:Item Key="item06CE" Value="Unavailable"/>
+        <local:Item Key="item06CC" Value="Piso fofo (pêssego)"/>
+        <local:Item Key="item06CD" Value="Piso de azulejos (marrom)"/>
+        <local:Item Key="item06CE" Value="Piso de mármore (preto)"/>
         <local:Item Key="item06CF" Value="Piso de pedra chique"/>
         <local:Item Key="item06D0" Value="Parede de madeira"/>
         <local:Item Key="item06D1" Value="Parede de madeira chique"/>
         <local:Item Key="item06D2" Value="Parede de pedra simples"/>
-        <local:Item Key="item06D3" Value="Unavailable"/>
-        <local:Item Key="item06D4" Value="Unavailable"/>
+        <local:Item Key="item06D3" Value="Parede estampada botânica"/>
+        <local:Item Key="item06D4" Value="Parede de madeira talhada de luxo"/>
         <local:Item Key="item06D5" Value="Parede de estuque simples"/>
-        <local:Item Key="item06D6" Value="Unavailable"/>
-        <local:Item Key="item06D7" Value="Unavailable"/>
-        <local:Item Key="item06D8" Value="Unavailable"/>
-        <local:Item Key="item06D9" Value="Unavailable"/>
+        <local:Item Key="item06D6" Value="Parede listrada (azul)"/>
+        <local:Item Key="item06D7" Value="Parede de azulejos (marrom)"/>
+        <local:Item Key="item06D8" Value="Parede elegante"/>
+        <local:Item Key="item06D9" Value="Parede de mármore"/>
         <local:Item Key="item06DA" Value="Parede de estuque elegante"/>
         <local:Item Key="item06DB" Value="Piso de madeira (branco)"/>
         <local:Item Key="item06DC" Value="Piso de madeira (verde)"/>
@@ -1838,17 +1838,17 @@
         <local:Item Key="item0709" Value="Cristal Sereno"/>
         <local:Item Key="item070A" Value="Cristal de Ermo-Guia"/>
         <local:Item Key="item070B" Value="Cristal Pálido"/>
-        <local:Item Key="item070C" Value="Cristal de Coral"/>
+        <local:Item Key="item070C" Value="Cristal de Arrecife"/>
         <local:Item Key="item070D" Value="Cristal das Profundezas"/>
-        <local:Item Key="item070E" Value="Cristal de Planalto-Guia"/>
+        <local:Item Key="item070E" Value="Cristal de Arrecife-Guia"/>
         <local:Item Key="item070F" Value="Cristal Distorcido"/>
         <local:Item Key="item0710" Value="Cristal Efluvial"/>
         <local:Item Key="item0711" Value="Cristal Crepuscular"/>
         <local:Item Key="item0712" Value="Cristal de Vale-Guia"/>
-        <local:Item Key="item0713" Value="Unavailable"/>
-        <local:Item Key="item0714" Value="Unavailable"/>
-        <local:Item Key="item0715" Value="Unavailable"/>
-        <local:Item Key="item0716" Value="Unavailable"/>
+        <local:Item Key="item0713" Value="Cristal Derretido"/>
+        <local:Item Key="item0714" Value="Cristal de Magma"/>
+        <local:Item Key="item0715" Value="Cristal Infernal"/>
+        <local:Item Key="item0716" Value="Cristal de Magma-Guia"/>
         <local:Item Key="item0717" Value="Unavailable"/>
         <local:Item Key="item0718" Value="Unavailable"/>
         <local:Item Key="item0719" Value="Unavailable"/>
@@ -1864,15 +1864,15 @@
         <local:Item Key="item0723" Value="Rubrosso Vívido"/>
         <local:Item Key="item0724" Value="Rubrosso Coralino"/>
         <local:Item Key="item0725" Value="Rubrosso Vibrante"/>
-        <local:Item Key="item0726" Value="Dragosso de Planalto-Guia"/>
+        <local:Item Key="item0726" Value="Dragosso de Arrecife-Guia"/>
         <local:Item Key="item0727" Value="Furiosso Deformado"/>
         <local:Item Key="item0728" Value="Furiosso Efluvial"/>
         <local:Item Key="item0729" Value="Furiosso Enfermo"/>
         <local:Item Key="item072A" Value="Dragosso de Vale-Guia"/>
-        <local:Item Key="item072B" Value="Unavailable"/>
-        <local:Item Key="item072C" Value="Unavailable"/>
-        <local:Item Key="item072D" Value="Unavailable"/>
-        <local:Item Key="item072E" Value="Unavailable"/>
+        <local:Item Key="item072B" Value="Ermosso Fervente"/>
+        <local:Item Key="item072C" Value="Ermosso Vulcânico"/>
+        <local:Item Key="item072D" Value="Ermosso Draqueimado"/>
+        <local:Item Key="item072E" Value="Dragosso de Vulcão-Guia"/>
         <local:Item Key="item072F" Value="Unavailable"/>
         <local:Item Key="item0730" Value="Unavailable"/>
         <local:Item Key="item0731" Value="Unavailable"/>
@@ -1926,12 +1926,12 @@
         <local:Item Key="item0761" Value="Unavailable"/>
         <local:Item Key="item0762" Value="Cascóleo Manchado+"/>
         <local:Item Key="item0763" Value="Cascóleo Aguerrido+"/>
-        <local:Item Key="item0764" Value="Unavailable"/>
+        <local:Item Key="item0764" Value="Mandíbula Pesada"/>
         <local:Item Key="item0765" Value="Unavailable"/>
-        <local:Item Key="item0766" Value="Unavailable"/>
-        <local:Item Key="item0767" Value="Unavailable"/>
-        <local:Item Key="item0768" Value="Unavailable"/>
-        <local:Item Key="item0769" Value="Unavailable"/>
+        <local:Item Key="item0766" Value="Magmatana Incandescente"/>
+        <local:Item Key="item0767" Value="Magmatana Aguerrida"/>
+        <local:Item Key="item0768" Value="Escutelo Metálico"/>
+        <local:Item Key="item0769" Value="Escutelo Aguerrido"/>
         <local:Item Key="item076A" Value="Unavailable"/>
         <local:Item Key="item076B" Value="Unavailable"/>
         <local:Item Key="item076C" Value="Pelicaprata Sinistra"/>
@@ -1958,16 +1958,16 @@
         <local:Item Key="item0781" Value="Caudafiada Aguerrida"/>
         <local:Item Key="item0782" Value="Caudalâmina Amolada"/>
         <local:Item Key="item0783" Value="Caudalâmina Aguerrida"/>
-        <local:Item Key="item0784" Value="Unavailable"/>
-        <local:Item Key="item0785" Value="Unavailable"/>
+        <local:Item Key="item0784" Value="Casconegro Brilhante"/>
+        <local:Item Key="item0785" Value="Casconegro Aguerrido"/>
         <local:Item Key="item0786" Value="Mandíbula da Força"/>
         <local:Item Key="item0787" Value="Mandíbula Aguerrida"/>
         <local:Item Key="item0788" Value="Mandibulosa Arrepiante"/>
         <local:Item Key="item0789" Value="Mandibulebânea Aguerrida"/>
         <local:Item Key="item078A" Value="Eletrificador Letal Energizado"/>
         <local:Item Key="item078B" Value="Eletrificador Aguerrido"/>
-        <local:Item Key="item078C" Value="Unavailable"/>
-        <local:Item Key="item078D" Value="Unavailable"/>
+        <local:Item Key="item078C" Value="Bombescama Rubra"/>
+        <local:Item Key="item078D" Value="Bombescama Aguerrida"/>
         <local:Item Key="item078E" Value="Couronegro Ensanguentado"/>
         <local:Item Key="item078F" Value="Couro Manchado"/>
         <local:Item Key="item0790" Value="Chifre Lazúli Solene"/>
@@ -1987,13 +1987,13 @@
         <local:Item Key="item079E" Value="Chifraço da Extinção"/>
         <local:Item Key="item079F" Value="Unavailable"/>
         <local:Item Key="item07A0" Value="Escama do Luar"/>
-        <local:Item Key="item07A1" Value="Unavailable"/>
+        <local:Item Key="item07A1" Value="Escama Dourada Aguerrida"/>
         <local:Item Key="item07A2" Value="Escama Escaldante"/>
-        <local:Item Key="item07A3" Value="Unavailable"/>
+        <local:Item Key="item07A3" Value="Escama Prateada Aguerrida"/>
         <local:Item Key="item07A4" Value="Unavailable"/>
         <local:Item Key="item07A5" Value="Unavailable"/>
-        <local:Item Key="item07A6" Value="Unavailable"/>
-        <local:Item Key="item07A7" Value="Unavailable"/>
+        <local:Item Key="item07A6" Value="Peluzente Sanguinário"/>
+        <local:Item Key="item07A7" Value="Peluzente Aguerrido"/>
         <local:Item Key="item07A8" Value="Unavailable"/>
         <local:Item Key="item07A9" Value="Unavailable"/>
         <local:Item Key="item07AA" Value="Unavailable"/>
@@ -2382,22 +2382,22 @@
         <local:Item Key="item0929" Value="Unavailable"/>
         <local:Item Key="item092A" Value="Unavailable"/>
         <local:Item Key="item092B" Value="Unavailable"/>
-        <local:Item Key="item092C" Value="Unavailable"/>
-        <local:Item Key="item092D" Value="Unavailable"/>
-        <local:Item Key="item092E" Value="Unavailable"/>
-        <local:Item Key="item092F" Value="Unavailable"/>
-        <local:Item Key="item0930" Value="Unavailable"/>
-        <local:Item Key="item0931" Value="Unavailable"/>
-        <local:Item Key="item0932" Value="Unavailable"/>
-        <local:Item Key="item0933" Value="Unavailable"/>
-        <local:Item Key="item0934" Value="Unavailable"/>
-        <local:Item Key="item0935" Value="Unavailable"/>
-        <local:Item Key="item0936" Value="Unavailable"/>
-        <local:Item Key="item0937" Value="Unavailable"/>
-        <local:Item Key="item0938" Value="Unavailable"/>
-        <local:Item Key="item0939" Value="Unavailable"/>
-        <local:Item Key="item093A" Value="Unavailable"/>
-        <local:Item Key="item093B" Value="Unavailable"/>
+        <local:Item Key="item092C" Value="The Comforts of Home"/>
+        <local:Item Key="item092D" Value="Preparing for the Journey - Living Quarters"/>
+        <local:Item Key="item092E" Value="Dreams of Tomorrow - Private Quarters"/>
+        <local:Item Key="item092F" Value="Gorgeous Days - Private Suite"/>
+        <local:Item Key="item0930" Value="A Brand New Day"/>
+        <local:Item Key="item0931" Value="The Gracious Villagers"/>
+        <local:Item Key="item0932" Value="Moga on the Sea"/>
+        <local:Item Key="item0933" Value="Harbor of the Sun - Val Habar"/>
+        <local:Item Key="item0934" Value="Proof of a Hero - Monster Hunter: World Version"/>
+        <local:Item Key="item0935" Value="Guidance"/>
+        <local:Item Key="item0936" Value="Pride of a Nameless Hunter"/>
+        <local:Item Key="item0937" Value="Succession of Light"/>
+        <local:Item Key="item0938" Value="Tales Spun through Song"/>
+        <local:Item Key="item0939" Value="Saudade"/>
+        <local:Item Key="item093A" Value="Save Room"/>
+        <local:Item Key="item093B" Value="Black Impact"/>
         <local:Item Key="item093C" Value="Unavailable"/>
         <local:Item Key="item093D" Value="Unavailable"/>
         <local:Item Key="item093E" Value="Unavailable"/>
@@ -2444,7 +2444,7 @@
         <local:Item Key="item0967" Value="Unavailable"/>
         <local:Item Key="item0968" Value="Unavailable"/>
         <local:Item Key="item0969" Value="Unavailable"/>
-        <local:Item Key="item096A" Value="Unavailable"/>
+        <local:Item Key="item096A" Value="Boneca de Melince"/>
         <local:Item Key="item096B" Value="Unavailable"/>
         <local:Item Key="item096C" Value="Unavailable"/>
         <local:Item Key="item096D" Value="Vaso de flor de ameixeira"/>
@@ -2457,7 +2457,7 @@
         <local:Item Key="item0974" Value="Unavailable"/>
         <local:Item Key="item0975" Value="Unavailable"/>
         <local:Item Key="item0976" Value="Unavailable"/>
-        <local:Item Key="item0977" Value="Unavailable"/>
+        <local:Item Key="item0977" Value="Conjunto de chá gracioso"/>
         <local:Item Key="item0978" Value="Unavailable"/>
         <local:Item Key="item0979" Value="Unavailable"/>
         <local:Item Key="item097A" Value="Unavailable"/>
@@ -2471,21 +2471,21 @@
         <local:Item Key="item0982" Value="Unavailable"/>
         <local:Item Key="item0983" Value="Unavailable"/>
         <local:Item Key="item0984" Value="Unavailable"/>
-        <local:Item Key="item0985" Value="Unavailable"/>
+        <local:Item Key="item0985" Value="Quadros de Amigato 2"/>
         <local:Item Key="item0986" Value="Unavailable"/>
         <local:Item Key="item0987" Value="Unavailable"/>
-        <local:Item Key="item0988" Value="Unavailable"/>
+        <local:Item Key="item0988" Value="Desenho de momento relax"/>
         <local:Item Key="item0989" Value="Unavailable"/>
-        <local:Item Key="item098A" Value="Unavailable"/>
+        <local:Item Key="item098A" Value="Quadro de frutas"/>
         <local:Item Key="item098B" Value="Unavailable"/>
-        <local:Item Key="item098C" Value="Unavailable"/>
+        <local:Item Key="item098C" Value="Abajures familiares (amarelos)"/>
         <local:Item Key="item098D" Value="Unavailable"/>
         <local:Item Key="item098E" Value="Unavailable"/>
         <local:Item Key="item098F" Value="Unavailable"/>
         <local:Item Key="item0990" Value="Unavailable"/>
         <local:Item Key="item0991" Value="Unavailable"/>
-        <local:Item Key="item0992" Value="Unavailable"/>
-        <local:Item Key="item0993" Value="Unavailable"/>
+        <local:Item Key="item0992" Value="Abajures simples (amarelos)"/>
+        <local:Item Key="item0993" Value="Abajures simples (brancos)"/>
         <local:Item Key="item0994" Value="Unavailable"/>
         <local:Item Key="item0995" Value="Unavailable"/>
         <local:Item Key="item0996" Value="Unavailable"/>
@@ -2502,8 +2502,8 @@
         <local:Item Key="item09A1" Value="Unavailable"/>
         <local:Item Key="item09A2" Value="Unavailable"/>
         <local:Item Key="item09A3" Value="Unavailable"/>
-        <local:Item Key="item09A4" Value="Unavailable"/>
-        <local:Item Key="item09A5" Value="Unavailable"/>
+        <local:Item Key="item09A4" Value="Quadro ensolarado"/>
+        <local:Item Key="item09A5" Value="Quadro de Astera"/>
         <local:Item Key="item09A6" Value="Unavailable"/>
         <local:Item Key="item09A7" Value="Unavailable"/>
         <local:Item Key="item09A8" Value="Unavailable"/>
@@ -2514,64 +2514,64 @@
         <local:Item Key="item09AD" Value="Unavailable"/>
         <local:Item Key="item09AE" Value="Unavailable"/>
         <local:Item Key="item09AF" Value="Unavailable"/>
-        <local:Item Key="item09B0" Value="Unavailable"/>
+        <local:Item Key="item09B0" Value="Busto de Rathalos"/>
         <local:Item Key="item09B1" Value="Unavailable"/>
         <local:Item Key="item09B2" Value="Unavailable"/>
-        <local:Item Key="item09B3" Value="Unavailable"/>
-        <local:Item Key="item09B4" Value="Unavailable"/>
-        <local:Item Key="item09B5" Value="Unavailable"/>
-        <local:Item Key="item09B6" Value="Unavailable"/>
+        <local:Item Key="item09B3" Value="Boneca de Felyno pelúcia gigante"/>
+        <local:Item Key="item09B4" Value="Boneca de Poogie pelúcia gigante"/>
+        <local:Item Key="item09B5" Value="Boneca de Bychano pelúcia gigante"/>
+        <local:Item Key="item09B6" Value="Estande de equipamento"/>
         <local:Item Key="item09B7" Value="Unavailable"/>
         <local:Item Key="item09B8" Value="Unavailable"/>
-        <local:Item Key="item09B9" Value="Unavailable"/>
+        <local:Item Key="item09B9" Value="Gaiola de Guialumes"/>
         <local:Item Key="item09BA" Value="Unavailable"/>
-        <local:Item Key="item09BB" Value="Unavailable"/>
-        <local:Item Key="item09BC" Value="Unavailable"/>
-        <local:Item Key="item09BD" Value="Unavailable"/>
-        <local:Item Key="item09BE" Value="Unavailable"/>
-        <local:Item Key="item09BF" Value="Unavailable"/>
-        <local:Item Key="item09C0" Value="Unavailable"/>
-        <local:Item Key="item09C1" Value="Unavailable"/>
-        <local:Item Key="item09C2" Value="Unavailable"/>
-        <local:Item Key="item09C3" Value="Unavailable"/>
+        <local:Item Key="item09BB" Value="Boneco de Grande Jagras"/>
+        <local:Item Key="item09BC" Value="Boneco de Nergigante"/>
+        <local:Item Key="item09BD" Value="Boneco de Kushala Daora"/>
+        <local:Item Key="item09BE" Value="Boneco de Dodogama"/>
+        <local:Item Key="item09BF" Value="Boneco de Rathalos"/>
+        <local:Item Key="item09C0" Value="Boneco de Anjanath"/>
+        <local:Item Key="item09C1" Value="Piso elegante (azul)"/>
+        <local:Item Key="item09C2" Value="Piso elegante (verde)"/>
+        <local:Item Key="item09C3" Value="Piso elegante (branco)"/>
         <local:Item Key="item09C4" Value="Unavailable"/>
-        <local:Item Key="item09C5" Value="Unavailable"/>
-        <local:Item Key="item09C6" Value="Unavailable"/>
-        <local:Item Key="item09C7" Value="Unavailable"/>
-        <local:Item Key="item09C8" Value="Unavailable"/>
+        <local:Item Key="item09C5" Value="Piso fofo (azul)"/>
+        <local:Item Key="item09C6" Value="Piso fofo (verde)"/>
+        <local:Item Key="item09C7" Value="Piso fofo (cinza)"/>
+        <local:Item Key="item09C8" Value="Piso de madeira de luxo"/>
         <local:Item Key="item09C9" Value="Unavailable"/>
         <local:Item Key="item09CA" Value="Unavailable"/>
         <local:Item Key="item09CB" Value="Unavailable"/>
         <local:Item Key="item09CC" Value="Unavailable"/>
         <local:Item Key="item09CD" Value="Unavailable"/>
-        <local:Item Key="item09CE" Value="Unavailable"/>
-        <local:Item Key="item09CF" Value="Unavailable"/>
-        <local:Item Key="item09D0" Value="Unavailable"/>
-        <local:Item Key="item09D1" Value="Unavailable"/>
-        <local:Item Key="item09D2" Value="Unavailable"/>
-        <local:Item Key="item09D3" Value="Unavailable"/>
-        <local:Item Key="item09D4" Value="Unavailable"/>
-        <local:Item Key="item09D5" Value="Unavailable"/>
-        <local:Item Key="item09D6" Value="Unavailable"/>
+        <local:Item Key="item09CE" Value="Piso de azulejos (azul)"/>
+        <local:Item Key="item09CF" Value="Piso de azulejos (pêssego)"/>
+        <local:Item Key="item09D0" Value="Piso de azulejos (água)"/>
+        <local:Item Key="item09D1" Value="Parede listrada (pêssego)"/>
+        <local:Item Key="item09D2" Value="Parede listrada (cinza)"/>
+        <local:Item Key="item09D3" Value="Parede listrada (amarela)"/>
+        <local:Item Key="item09D4" Value="Parede de azulejos (azul)"/>
+        <local:Item Key="item09D5" Value="Parede de azulejos (cinza)"/>
+        <local:Item Key="item09D6" Value="Parede de azulejos (pastel)"/>
         <local:Item Key="item09D7" Value="Unavailable"/>
-        <local:Item Key="item09D8" Value="Unavailable"/>
-        <local:Item Key="item09D9" Value="Unavailable"/>
-        <local:Item Key="item09DA" Value="Unavailable"/>
+        <local:Item Key="item09D8" Value="Parede estampada de luxo (azul)"/>
+        <local:Item Key="item09D9" Value="Parede estampada de luxo (verm.)"/>
+        <local:Item Key="item09DA" Value="Parede estampada de luxo (verde)"/>
         <local:Item Key="item09DB" Value="Unavailable"/>
         <local:Item Key="item09DC" Value="Unavailable"/>
         <local:Item Key="item09DD" Value="Unavailable"/>
         <local:Item Key="item09DE" Value="Unavailable"/>
         <local:Item Key="item09DF" Value="Unavailable"/>
-        <local:Item Key="item09E0" Value="Unavailable"/>
+        <local:Item Key="item09E0" Value="Parede de mármore (cinza)"/>
         <local:Item Key="item09E1" Value="Unavailable"/>
         <local:Item Key="item09E2" Value="Prato jovial"/>
         <local:Item Key="item09E3" Value="Prato de luxo"/>
         <local:Item Key="item09E4" Value="Unavailable"/>
         <local:Item Key="item09E5" Value="Unavailable"/>
-        <local:Item Key="item09E6" Value="Unavailable"/>
-        <local:Item Key="item09E7" Value="Unavailable"/>
-        <local:Item Key="item09E8" Value="Unavailable"/>
-        <local:Item Key="item09E9" Value="Unavailable"/>
+        <local:Item Key="item09E6" Value="Boneco de Tobi-Kadachi"/>
+        <local:Item Key="item09E7" Value="Boneco de Barioth"/>
+        <local:Item Key="item09E8" Value="Boneco de Banbaro"/>
+        <local:Item Key="item09E9" Value="Bonecos da Tribo Boaboa"/>
         <local:Item Key="item09EA" Value="Unavailable"/>
         <local:Item Key="item09EB" Value="Unavailable"/>
         <local:Item Key="item09EC" Value="Unavailable"/>
@@ -2599,20 +2599,20 @@
         <local:Item Key="item0A02" Value="Unavailable"/>
         <local:Item Key="item0A03" Value="Unavailable"/>
         <local:Item Key="item0A04" Value="Unavailable"/>
-        <local:Item Key="item0A05" Value="Unavailable"/>
+        <local:Item Key="item0A05" Value="Boneco da Grande Apreciação"/>
         <local:Item Key="item0A06" Value="Unavailable"/>
         <local:Item Key="item0A07" Value="Unavailable"/>
-        <local:Item Key="item0A08" Value="Unavailable"/>
-        <local:Item Key="item0A09" Value="Unavailable"/>
-        <local:Item Key="item0A0A" Value="Unavailable"/>
-        <local:Item Key="item0A0B" Value="Unavailable"/>
-        <local:Item Key="item0A0C" Value="Unavailable"/>
-        <local:Item Key="item0A0D" Value="Unavailable"/>
-        <local:Item Key="item0A0E" Value="Unavailable"/>
-        <local:Item Key="item0A0F" Value="Unavailable"/>
-        <local:Item Key="item0A10" Value="Unavailable"/>
-        <local:Item Key="item0A11" Value="Unavailable"/>
-        <local:Item Key="item0A12" Value="Unavailable"/>
+        <local:Item Key="item0A08" Value="Erva Verde"/>
+        <local:Item Key="item0A09" Value="Erva Vermelha"/>
+        <local:Item Key="item0A0A" Value="Erva Azul"/>
+        <local:Item Key="item0A0B" Value="Sprays de Primeiros Socorros"/>
+        <local:Item Key="item0A0C" Value="Mr. Raccoon"/>
+        <local:Item Key="item0A0D" Value="Tapetes sinistros (A1)"/>
+        <local:Item Key="item0A0E" Value="Tapetes sinistros (A2)"/>
+        <local:Item Key="item0A0F" Value="Enfeite de parede da S.T.A.R.S. 1"/>
+        <local:Item Key="item0A10" Value="Enfeite de parede da S.T.A.R.S. 2"/>
+        <local:Item Key="item0A11" Value="Máquina de escrever"/>
+        <local:Item Key="item0A12" Value="Baú"/>
         <local:Item Key="item0A13" Value="Unavailable"/>
         <local:Item Key="item0A14" Value="Unavailable"/>
         <local:Item Key="item0A15" Value="Boneco de neve jovial"/>
@@ -2717,9 +2717,9 @@
         <local:Item Key="item0A78" Value="Unavailable"/>
         <local:Item Key="item0A79" Value="Unavailable"/>
         <local:Item Key="item0A7A" Value="Unavailable"/>
-        <local:Item Key="item0A7B" Value="Unavailable"/>
-        <local:Item Key="item0A7C" Value="Unavailable"/>
-        <local:Item Key="item0A7D" Value="Unavailable"/>
+        <local:Item Key="item0A7B" Value="Erva Verde"/>
+        <local:Item Key="item0A7C" Value="Erva Vermelha"/>
+        <local:Item Key="item0A7D" Value="Mix de Ervas (Vd+Vm)"/>
         <local:Item Key="item0A7E" Value="Bilhete de Fundição de Aço"/>
         <local:Item Key="item0A7F" Value="Bilhete de Fundição de Prata"/>
         <local:Item Key="item0A80" Value="Pedra Feérica Fundição Aço"/>
@@ -2738,10 +2738,10 @@
         <local:Item Key="item0A8D" Value="Unavailable"/>
         <local:Item Key="item0A8E" Value="Unavailable"/>
         <local:Item Key="item0A8F" Value="Unavailable"/>
-        <local:Item Key="item0A90" Value="Unavailable"/>
-        <local:Item Key="item0A91" Value="Unavailable"/>
-        <local:Item Key="item0A92" Value="Unavailable"/>
-        <local:Item Key="item0A93" Value="Unavailable"/>
+        <local:Item Key="item0A90" Value="Projeto da Águia Negra"/>
+        <local:Item Key="item0A91" Value="Vaso de Treme-treme"/>
+        <local:Item Key="item0A92" Value="Distintivo da S.T.A.R.S."/>
+        <local:Item Key="item0A93" Value="HARDUMMY"/>
         <local:Item Key="item0A94" Value="Unavailable"/>
         <local:Item Key="item0A95" Value="Unavailable"/>
         <local:Item Key="item0A96" Value="Bilhete Jovial"/>
@@ -2767,8 +2767,8 @@
         <local:Item Key="item0AAA" Value="Símbolo de União"/>
         <local:Item Key="item0AAB" Value="Unavailable"/>
         <local:Item Key="item0AAC" Value="Unavailable"/>
-        <local:Item Key="item0AAD" Value="Unavailable"/>
-        <local:Item Key="item0AAE" Value="Unavailable"/>
+        <local:Item Key="item0AAD" Value="Lágrima Grande de Fera"/>
+        <local:Item Key="item0AAE" Value="Pelica Magnífica"/>
         <local:Item Key="item0AAF" Value="Bilhete Jovial VIP"/>
         <local:Item Key="item0AB0" Value="Bilhete da Gratidão VIP"/>
     </x:Array>
