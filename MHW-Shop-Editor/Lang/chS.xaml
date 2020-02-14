@@ -6,31 +6,31 @@
     <!--TODO: Translate Strings-->
     <!--application-->
     <system:String x:Key="title">MHW Shop Editor</system:String>
-    <system:String x:Key="file">File</system:String>
-    <system:String x:Key="open">Open</system:String>
-    <system:String x:Key="save">Save</system:String>
-    <system:String x:Key="lang">Language</system:String>
-    <system:String x:Key="default">Default Items</system:String>
-    <system:String x:Key="hrgems">HR Gems</system:String>
-    <system:String x:Key="plusgems">Jewel+ Gems</system:String>
-    <system:String x:Key="fourgems">Jewel 4 Gems</system:String>
-    <system:String x:Key="clear">Clear Items</system:String>
-    <system:String x:Key="consumables">Consumables</system:String>
-    <system:String x:Key="lr_mats">LR Materials</system:String>
-    <system:String x:Key="hr_mats">HR Materials</system:String>
-    <system:String x:Key="mr_mats">MR Materials</system:String>
-    <system:String x:Key="mr_parts">MR Parts</system:String>
-    <system:String x:Key="gl_mats">GL Parts</system:String>
-    <system:String x:Key="settings">Settings</system:String>
-    <system:String x:Key="insertTop">Insert to Top</system:String>
-    <system:String x:Key="insertBottom">Insert to Bottom</system:String>
-    <system:String x:Key="sortID">Sort by ID</system:String>
-    <system:String x:Key="sortName">Sort by Name</system:String>
-    <system:String x:Key="filterContains">Contains Word</system:String>
-    <system:String x:Key="filterWhole">Match Word</system:String>
-    <system:String x:Key="filterHide">Hide Matching</system:String>
-    <system:String x:Key="count">Item Count:</system:String>
-    <system:String x:Key="results">Results:</system:String>
+    <system:String x:Key="file">文件</system:String>
+    <system:String x:Key="open">打开</system:String>
+    <system:String x:Key="save">保存</system:String>
+    <system:String x:Key="lang">语言</system:String>
+    <system:String x:Key="default">默认道具</system:String>
+    <system:String x:Key="hrgems">上位宝珠</system:String>
+    <system:String x:Key="plusgems">高级宝珠</system:String>
+    <system:String x:Key="fourgems">稀有4级宝珠</system:String>
+    <system:String x:Key="clear">清除道具</system:String>
+    <system:String x:Key="consumables">消耗品</system:String>
+    <system:String x:Key="lr_mats">下位素材</system:String>
+    <system:String x:Key="hr_mats">上位素材</system:String>
+    <system:String x:Key="mr_mats">大师素材</system:String>
+    <system:String x:Key="mr_parts">大师掉落素材</system:String>
+    <system:String x:Key="gl_mats">聚魔掉落素材</system:String>
+    <system:String x:Key="settings">设置</system:String>
+    <system:String x:Key="insertTop">添加到上面</system:String>
+    <system:String x:Key="insertBottom">添加到下面</system:String>
+    <system:String x:Key="sortID">ID排列</system:String>
+    <system:String x:Key="sortName">名字排列</system:String>
+    <system:String x:Key="filterContains">包含文字</system:String>
+    <system:String x:Key="filterWhole">匹配文字</system:String>
+    <system:String x:Key="filterHide">隐藏匹配</system:String>
+    <system:String x:Key="count">道具数目:</system:String>
+    <system:String x:Key="results">结果:</system:String>
 
 
     <!--itemlist-->
