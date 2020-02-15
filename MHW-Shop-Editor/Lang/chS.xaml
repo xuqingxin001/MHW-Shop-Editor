@@ -19,8 +19,8 @@
     <system:String x:Key="lr_mats">下位素材</system:String>
     <system:String x:Key="hr_mats">上位素材</system:String>
     <system:String x:Key="mr_mats">大师素材</system:String>
-    <system:String x:Key="mr_parts">大师掉落素材</system:String>
-    <system:String x:Key="gl_mats">聚魔掉落素材</system:String>
+    <system:String x:Key="mr_parts">大师破坏素材</system:String>
+    <system:String x:Key="gl_mats">聚魔破坏素材</system:String>
     <system:String x:Key="settings">设置</system:String>
     <system:String x:Key="insertTop">添加到上面</system:String>
     <system:String x:Key="insertBottom">添加到下面</system:String>
