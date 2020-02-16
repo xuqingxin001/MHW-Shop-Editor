@@ -13,7 +13,7 @@
     <system:String x:Key="default">默认道具</system:String>
     <system:String x:Key="hrgems">上位宝珠</system:String>
     <system:String x:Key="plusgems">高级宝珠</system:String>
-    <system:String x:Key="fourgems">稀有4级宝珠</system:String>
+    <system:String x:Key="fourgems">冰原宝珠</system:String>
     <system:String x:Key="clear">清除道具</system:String>
     <system:String x:Key="consumables">消耗品</system:String>
     <system:String x:Key="lr_mats">下位素材</system:String>
