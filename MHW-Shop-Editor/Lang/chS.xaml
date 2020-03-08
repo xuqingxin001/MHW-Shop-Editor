@@ -1382,12 +1382,12 @@
         <local:Item Key="item0541" Value="灭尽龙的刚爪"/>
         <local:Item Key="item0542" Value="无穷的新生壳"/>
         <local:Item Key="item0543" Value="冰晶的厚龙鳞"/>
-        <local:Item Key="item0544" Value="冰龙的重壳"/>
-        <local:Item Key="item0545" Value="冰龙的刚翼"/>
-        <local:Item Key="item0546" Value="冰龙的冠角"/>
-        <local:Item Key="item0547" Value="冰龙的韧尾"/>
-        <local:Item Key="item0548" Value="冰龙的刚爪"/>
-        <local:Item Key="item0549" Value="冰龙的零玉"/>
+        <local:Item Key="item0544" Value="冰呪龙的重壳"/>
+        <local:Item Key="item0545" Value="冰呪龙的刚翼"/>
+        <local:Item Key="item0546" Value="冰呪龙的冠角"/>
+        <local:Item Key="item0547" Value="冰呪龙的韧尾"/>
+        <local:Item Key="item0548" Value="冰呪龙的刚爪"/>
+        <local:Item Key="item0549" Value="冰呪龙的零玉"/>
         <local:Item Key="item054A" Value="炎王龙的重壳"/>
         <local:Item Key="item054B" Value="炎王龙的大鬃毛"/>
         <local:Item Key="item054C" Value="炎王龙的韧尾"/>
