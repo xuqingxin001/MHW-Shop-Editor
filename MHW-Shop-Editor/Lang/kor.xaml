@@ -35,6 +35,7 @@
 
     <!--itemlist-->
     <x:Array Type="local:Item" x:Key="itemsList">
+        <!--#region Items -->
         <local:Item Key="item0001" Value="회복약"/>
         <local:Item Key="item0002" Value="그레이트 회복약"/>
         <local:Item Key="item0003" Value="비약"/>
@@ -1339,14 +1340,14 @@
         <local:Item Key="item0516" Value="뇌랑룡의 뇌전갑각"/>
         <local:Item Key="item0517" Value="초전뇌광충"/>
         <local:Item Key="item0518" Value="뇌랑룡의 천옥"/>
-        <local:Item Key="item0519" Value="Unavailable"/>
-        <local:Item Key="item051A" Value="Unavailable"/>
-        <local:Item Key="item051B" Value="Unavailable"/>
-        <local:Item Key="item051C" Value="Unavailable"/>
-        <local:Item Key="item051D" Value="Unavailable"/>
-        <local:Item Key="item051E" Value="Unavailable"/>
-        <local:Item Key="item051F" Value="Unavailable"/>
-        <local:Item Key="item0520" Value="Unavailable"/>
+        <local:Item Key="item0519" Value="옥랑룡의 중갑각"/>
+        <local:Item Key="item051A" Value="옥랑룡의 멸룡모"/>
+        <local:Item Key="item051B" Value="옥랑룡의 억센뿔"/>
+        <local:Item Key="item051C" Value="옥랑룡의 억센발톱"/>
+        <local:Item Key="item051D" Value="옥랑룡의 질긴꼬리"/>
+        <local:Item Key="item051E" Value="옥랑룡의 멸룡갑각"/>
+        <local:Item Key="item051F" Value="식룡충"/>
+        <local:Item Key="item0520" Value="옥랑룡의 천옥"/>
         <local:Item Key="item0521" Value="폭린룡의 두툼비늘"/>
         <local:Item Key="item0522" Value="홍련에 흔들리는 은각"/>
         <local:Item Key="item0523" Value="폭린룡의 중꼬리"/>
@@ -1421,14 +1422,14 @@
         <local:Item Key="item0568" Value="명룡의 질긴꼬리"/>
         <local:Item Key="item0569" Value="명룡의 억센발톱"/>
         <local:Item Key="item056A" Value="Unavailable"/>
-        <local:Item Key="item056B" Value="Unavailable"/>
-        <local:Item Key="item056C" Value="Unavailable"/>
-        <local:Item Key="item056D" Value="Unavailable"/>
-        <local:Item Key="item056E" Value="Unavailable"/>
-        <local:Item Key="item056F" Value="Unavailable"/>
-        <local:Item Key="item0570" Value="Unavailable"/>
-        <local:Item Key="item0571" Value="Unavailable"/>
-        <local:Item Key="item0572" Value="Unavailable"/>
+        <local:Item Key="item056B" Value="명적룡의 두툼비늘"/>
+        <local:Item Key="item056C" Value="명적룡의 중갑각"/>
+        <local:Item Key="item056D" Value="열광의 용맥갑각"/>
+        <local:Item Key="item056E" Value="명적룡의 중꼬리"/>
+        <local:Item Key="item056F" Value="명적룡의 억센뿔"/>
+        <local:Item Key="item0570" Value="명적룡의 억센발톱"/>
+        <local:Item Key="item0571" Value="명적룡의 억센날개"/>
+        <local:Item Key="item0572" Value="지오니움 결정체"/>
         <local:Item Key="item0573" Value="지제룡의 자비늘"/>
         <local:Item Key="item0574" Value="지제룡의 엄암각"/>
         <local:Item Key="item0575" Value="Unavailable"/>
@@ -1506,7 +1507,7 @@
         <local:Item Key="item05BD" Value="푹신모그이"/>
         <local:Item Key="item05BE" Value="바늘모그이"/>
         <local:Item Key="item05BF" Value="말썽쟁이모그이"/>
-        <local:Item Key="item05C0" Value="Unavailable"/>
+        <local:Item Key="item05C0" Value="비단모그이"/>
         <local:Item Key="item05C1" Value="도스글래스파렉스"/>
         <local:Item Key="item05C2" Value="Unavailable"/>
         <local:Item Key="item05C3" Value="Unavailable"/>
@@ -1551,7 +1552,7 @@
         <local:Item Key="item05EA" Value="가련한 상자"/>
         <local:Item Key="item05EB" Value="바다 건너 극한지의 식물1"/>
         <local:Item Key="item05EC" Value="바다 건너 극한지의 식물2"/>
-        <local:Item Key="item05ED" Value="Unavailable"/>
+        <local:Item Key="item05ED" Value="바다 건너 극한지의 식물4"/>
         <local:Item Key="item05EE" Value="바다 건너 극한지의 식물3"/>
         <local:Item Key="item05EF" Value="고대수의 숲의 식물1"/>
         <local:Item Key="item05F0" Value="개밋둑의 황야의 식물3"/>
@@ -1559,11 +1560,11 @@
         <local:Item Key="item05F2" Value="고대수의 숲의 식물5"/>
         <local:Item Key="item05F3" Value="고대수의 숲의 식물3"/>
         <local:Item Key="item05F4" Value="개밋둑의 황야의 식물2"/>
-        <local:Item Key="item05F5" Value="Unavailable"/>
+        <local:Item Key="item05F5" Value="개밋둑의 황야의 식물4"/>
         <local:Item Key="item05F6" Value="개밋둑의 황야의 식물1"/>
         <local:Item Key="item05F7" Value="고대수의 숲의 식물2"/>
         <local:Item Key="item05F8" Value="독기의 골짜기의 식물1"/>
-        <local:Item Key="item05F9" Value="Unavailable"/>
+        <local:Item Key="item05F9" Value="독기의 골짜기의 식물2"/>
         <local:Item Key="item05FA" Value="소박한 항아리"/>
         <local:Item Key="item05FB" Value="테토루 인형"/>
         <local:Item Key="item05FC" Value="가쟈부 인형"/>
@@ -1577,7 +1578,7 @@
         <local:Item Key="item0604" Value="Unavailable"/>
         <local:Item Key="item0605" Value="Unavailable"/>
         <local:Item Key="item0606" Value="Unavailable"/>
-        <local:Item Key="item0607" Value="Unavailable"/>
+        <local:Item Key="item0607" Value="고급 물 주전자"/>
         <local:Item Key="item0608" Value="Unavailable"/>
         <local:Item Key="item0609" Value="소박한 항아리 세트"/>
         <local:Item Key="item060A" Value="마대"/>
@@ -1592,9 +1593,9 @@
         <local:Item Key="item0613" Value="Unavailable"/>
         <local:Item Key="item0614" Value="그림 접시 세트【대】"/>
         <local:Item Key="item0615" Value="광석이 들어 있는 바구니"/>
-        <local:Item Key="item0616" Value="Unavailable"/>
+        <local:Item Key="item0616" Value="술통"/>
         <local:Item Key="item0617" Value="구급상자"/>
-        <local:Item Key="item0618" Value="Unavailable"/>
+        <local:Item Key="item0618" Value="청초한 꽃병【소】"/>
         <local:Item Key="item0619" Value="화분"/>
         <local:Item Key="item061A" Value="탐구의 책"/>
         <local:Item Key="item061B" Value="현명의 책"/>
@@ -1608,8 +1609,8 @@
         <local:Item Key="item0623" Value="기면족의 가면【탄식】"/>
         <local:Item Key="item0624" Value="기면족의 가면【놀람】"/>
         <local:Item Key="item0625" Value="호박"/>
-        <local:Item Key="item0626" Value="Unavailable"/>
-        <local:Item Key="item0627" Value="Unavailable"/>
+        <local:Item Key="item0626" Value="파란색 광석"/>
+        <local:Item Key="item0627" Value="빨간색 광석"/>
         <local:Item Key="item0628" Value="조개"/>
         <local:Item Key="item0629" Value="수렵 공헌의 증거【일조】"/>
         <local:Item Key="item062A" Value="수렵 공헌의 증거【진력】"/>
@@ -1672,7 +1673,7 @@
         <local:Item Key="item0663" Value="벽걸이 천"/>
         <local:Item Key="item0664" Value="모피 벽걸이"/>
         <local:Item Key="item0665" Value="방향키 벽걸이"/>
-        <local:Item Key="item0666" Value="Unavailable"/>
+        <local:Item Key="item0666" Value="장식 접시 세트"/>
         <local:Item Key="item0667" Value="그림【기면족②】"/>
         <local:Item Key="item0668" Value="그림【수전족②】"/>
         <local:Item Key="item0669" Value="그림【산묘족②】"/>
@@ -1699,7 +1700,7 @@
         <local:Item Key="item067E" Value="모피 융단(2층)"/>
         <local:Item Key="item067F" Value="랜턴"/>
         <local:Item Key="item0680" Value="Unavailable"/>
-        <local:Item Key="item0681" Value="Unavailable"/>
+        <local:Item Key="item0681" Value="램프"/>
         <local:Item Key="item0682" Value="촛불"/>
         <local:Item Key="item0683" Value="촛대"/>
         <local:Item Key="item0684" Value="작은 새 램프"/>
@@ -1736,9 +1737,9 @@
         <local:Item Key="item06A3" Value="사냥꾼 무늬【백】"/>
         <local:Item Key="item06A4" Value="사냥꾼 무늬【금】"/>
         <local:Item Key="item06A5" Value="사냥꾼 무늬【적】"/>
-        <local:Item Key="item06A6" Value="Unavailable"/>
-        <local:Item Key="item06A7" Value="Unavailable"/>
-        <local:Item Key="item06A8" Value="Unavailable"/>
+        <local:Item Key="item06A6" Value="물방울 무늬【백】"/>
+        <local:Item Key="item06A7" Value="물방울 무늬 【분홍】"/>
+        <local:Item Key="item06A8" Value="물방울 무늬【황】"/>
         <local:Item Key="item06A9" Value="체크 무늬 【화려】"/>
         <local:Item Key="item06AA" Value="체크 무늬【녹】"/>
         <local:Item Key="item06AB" Value="동반자 무늬 【분홍】"/>
@@ -1750,7 +1751,7 @@
         <local:Item Key="item06B1" Value="생명의 무늬-소 【분홍】"/>
         <local:Item Key="item06B2" Value="Unavailable"/>
         <local:Item Key="item06B3" Value="Unavailable"/>
-        <local:Item Key="item06B4" Value="Unavailable"/>
+        <local:Item Key="item06B4" Value="줄무늬 모양"/>
         <local:Item Key="item06B5" Value="Unavailable"/>
         <local:Item Key="item06B6" Value="Unavailable"/>
         <local:Item Key="item06B7" Value="Unavailable"/>
@@ -1767,7 +1768,7 @@
         <local:Item Key="item06C2" Value="품위 있는 방"/>
         <local:Item Key="item06C3" Value="가련한 방"/>
         <local:Item Key="item06C4" Value="Unavailable"/>
-        <local:Item Key="item06C5" Value="Unavailable"/>
+        <local:Item Key="item06C5" Value="수수한 방"/>
         <local:Item Key="item06C6" Value="목재 마루"/>
         <local:Item Key="item06C7" Value="시크한 목재 마루"/>
         <local:Item Key="item06C8" Value="소박한 돌바닥"/>
@@ -1849,10 +1850,10 @@
         <local:Item Key="item0714" Value="용암의 결정"/>
         <local:Item Key="item0715" Value="업화의 결정"/>
         <local:Item Key="item0716" Value="인도하는 결정【용암】"/>
-        <local:Item Key="item0717" Value="Unavailable"/>
-        <local:Item Key="item0718" Value="Unavailable"/>
-        <local:Item Key="item0719" Value="Unavailable"/>
-        <local:Item Key="item071A" Value="Unavailable"/>
+        <local:Item Key="item0717" Value="얼어붙은 결정"/>
+        <local:Item Key="item0718" Value="빙설의 결정"/>
+        <local:Item Key="item0719" Value="여명의 결정"/>
+        <local:Item Key="item071A" Value="인도하는 결정【빙설】"/>
         <local:Item Key="item071B" Value="풀이 무성한 대골"/>
         <local:Item Key="item071C" Value="심록의 대골"/>
         <local:Item Key="item071D" Value="용맥에 잠든 대골"/>
@@ -1873,10 +1874,10 @@
         <local:Item Key="item072C" Value="작열의 기운을 띤 만골"/>
         <local:Item Key="item072D" Value="용맥에 그을린 만골"/>
         <local:Item Key="item072E" Value="인도하는 용골【용암】"/>
-        <local:Item Key="item072F" Value="Unavailable"/>
-        <local:Item Key="item0730" Value="Unavailable"/>
-        <local:Item Key="item0731" Value="Unavailable"/>
-        <local:Item Key="item0732" Value="Unavailable"/>
+        <local:Item Key="item072F" Value="서리 빙골"/>
+        <local:Item Key="item0730" Value="동결된 빙골"/>
+        <local:Item Key="item0731" Value="용맥에 갇힌 빙골"/>
+        <local:Item Key="item0732" Value="인도하는 용골【빙설】"/>
         <local:Item Key="item0733" Value="용맥의 강용골"/>
         <local:Item Key="item0734" Value="용맥의 중용골"/>
         <local:Item Key="item0735" Value="용맥의 억센용골"/>
@@ -1904,8 +1905,8 @@
         <local:Item Key="item074B" Value="Unavailable"/>
         <local:Item Key="item074C" Value="눈부신 뇌광침"/>
         <local:Item Key="item074D" Value="역전의 뇌광침"/>
-        <local:Item Key="item074E" Value="Unavailable"/>
-        <local:Item Key="item074F" Value="Unavailable"/>
+        <local:Item Key="item074E" Value="요염한 맹독침"/>
+        <local:Item Key="item074F" Value="역전의 맹독침"/>
         <local:Item Key="item0750" Value="오래된 강자의 거대한 뿔"/>
         <local:Item Key="item0751" Value="역전의 거대한 뿔"/>
         <local:Item Key="item0752" Value="일렁이는 불꽃 모피"/>
@@ -1932,14 +1933,14 @@
         <local:Item Key="item0767" Value="역전의 용암 지느러미"/>
         <local:Item Key="item0768" Value="금속질의 내열갑각"/>
         <local:Item Key="item0769" Value="역전의 내열갑각"/>
-        <local:Item Key="item076A" Value="Unavailable"/>
-        <local:Item Key="item076B" Value="Unavailable"/>
+        <local:Item Key="item076A" Value="냉혈의 빙아"/>
+        <local:Item Key="item076B" Value="역전의 빙아"/>
         <local:Item Key="item076C" Value="불길한 은랑모"/>
         <local:Item Key="item076D" Value="역전의 은랑모"/>
         <local:Item Key="item076E" Value="매끈한 얼음 가죽"/>
         <local:Item Key="item076F" Value="역전의 얼음 가죽"/>
-        <local:Item Key="item0770" Value="Unavailable"/>
-        <local:Item Key="item0771" Value="Unavailable"/>
+        <local:Item Key="item0770" Value="얼어붙은 빙결피"/>
+        <local:Item Key="item0771" Value="역전의 빙결피"/>
         <local:Item Key="item0772" Value="생명을 자르는 참조"/>
         <local:Item Key="item0773" Value="역전의 참조"/>
         <local:Item Key="item0774" Value="영혼을 찢는 흉조"/>
@@ -1985,13 +1986,13 @@
         <local:Item Key="item079C" Value="환혹하는 특상 가죽"/>
         <local:Item Key="item079D" Value="역전의 환혹 가죽"/>
         <local:Item Key="item079E" Value="생자필멸의 억센큰뿔"/>
-        <local:Item Key="item079F" Value="Unavailable"/>
+        <local:Item Key="item079F" Value="역전의 섬멸각"/>
         <local:Item Key="item07A0" Value="월광의 용린"/>
         <local:Item Key="item07A1" Value="역전의 용린【금】"/>
         <local:Item Key="item07A2" Value="뙤약볕의 용린"/>
         <local:Item Key="item07A3" Value="역전의 용린【은】"/>
-        <local:Item Key="item07A4" Value="Unavailable"/>
-        <local:Item Key="item07A5" Value="Unavailable"/>
+        <local:Item Key="item07A4" Value="용솟음치는 멸룡갑각"/>
+        <local:Item Key="item07A5" Value="역전의 멸룡갑각"/>
         <local:Item Key="item07A6" Value="투기 넘치는 황모"/>
         <local:Item Key="item07A7" Value="역전의 황모"/>
         <local:Item Key="item07A8" Value="Unavailable"/>
@@ -2352,36 +2353,36 @@
         <local:Item Key="item090B" Value="Unavailable"/>
         <local:Item Key="item090C" Value="Unavailable"/>
         <local:Item Key="item090D" Value="Unavailable"/>
-        <local:Item Key="item090E" Value="Unavailable"/>
-        <local:Item Key="item090F" Value="Unavailable"/>
-        <local:Item Key="item0910" Value="Unavailable"/>
-        <local:Item Key="item0911" Value="Unavailable"/>
-        <local:Item Key="item0912" Value="Unavailable"/>
-        <local:Item Key="item0913" Value="Unavailable"/>
-        <local:Item Key="item0914" Value="Unavailable"/>
-        <local:Item Key="item0915" Value="Unavailable"/>
-        <local:Item Key="item0916" Value="Unavailable"/>
-        <local:Item Key="item0917" Value="Unavailable"/>
-        <local:Item Key="item0918" Value="Unavailable"/>
-        <local:Item Key="item0919" Value="Unavailable"/>
-        <local:Item Key="item091A" Value="Unavailable"/>
-        <local:Item Key="item091B" Value="Unavailable"/>
-        <local:Item Key="item091C" Value="Unavailable"/>
-        <local:Item Key="item091D" Value="Unavailable"/>
-        <local:Item Key="item091E" Value="Unavailable"/>
-        <local:Item Key="item091F" Value="Unavailable"/>
-        <local:Item Key="item0920" Value="Unavailable"/>
-        <local:Item Key="item0921" Value="Unavailable"/>
-        <local:Item Key="item0922" Value="Unavailable"/>
-        <local:Item Key="item0923" Value="Unavailable"/>
-        <local:Item Key="item0924" Value="Unavailable"/>
-        <local:Item Key="item0925" Value="Unavailable"/>
-        <local:Item Key="item0926" Value="Unavailable"/>
-        <local:Item Key="item0927" Value="Unavailable"/>
-        <local:Item Key="item0928" Value="Unavailable"/>
-        <local:Item Key="item0929" Value="Unavailable"/>
-        <local:Item Key="item092A" Value="Unavailable"/>
-        <local:Item Key="item092B" Value="Unavailable"/>
+        <local:Item Key="item090E" Value="발【소】"/>
+        <local:Item Key="item090F" Value="발【대】"/>
+        <local:Item Key="item0910" Value="수수한 긴 의자"/>
+        <local:Item Key="item0911" Value="수수한 침대"/>
+        <local:Item Key="item0912" Value="수수한 테이블"/>
+        <local:Item Key="item0913" Value="수수한 의자"/>
+        <local:Item Key="item0914" Value="냄비 요리 세트"/>
+        <local:Item Key="item0915" Value="수수한 상자"/>
+        <local:Item Key="item0916" Value="아이루 오뚝이【적】"/>
+        <local:Item Key="item0917" Value="아이루 오뚝이【금】"/>
+        <local:Item Key="item0918" Value="아이루 고양이 장식품"/>
+        <local:Item Key="item0919" Value="메라루 고양이 장식품"/>
+        <local:Item Key="item091A" Value="호리병"/>
+        <local:Item Key="item091B" Value="미니 방석"/>
+        <local:Item Key="item091C" Value="그림【향을 피우는 여자】"/>
+        <local:Item Key="item091D" Value="부채"/>
+        <local:Item Key="item091E" Value="부채【금】"/>
+        <local:Item Key="item091F" Value="부채【벚꽃】"/>
+        <local:Item Key="item0920" Value="수수한 긴 책상"/>
+        <local:Item Key="item0921" Value="수수한 선반"/>
+        <local:Item Key="item0922" Value="수수한 조명"/>
+        <local:Item Key="item0923" Value="족자【사냥】"/>
+        <local:Item Key="item0924" Value="족자【수전족】"/>
+        <local:Item Key="item0925" Value="족자【절대 강자】"/>
+        <local:Item Key="item0926" Value="족자【수묵화】"/>
+        <local:Item Key="item0927" Value="그림【신대륙】"/>
+        <local:Item Key="item0928" Value="수수한 융단(1층)"/>
+        <local:Item Key="item0929" Value="수수한 융단(2층)"/>
+        <local:Item Key="item092A" Value="칼 장식"/>
+        <local:Item Key="item092B" Value="꽃꽂이"/>
         <local:Item Key="item092C" Value="The Comforts of Home"/>
         <local:Item Key="item092D" Value="Preparing for the Journey - Living Quarters"/>
         <local:Item Key="item092E" Value="Dreams of Tomorrow - Private Quarters"/>
@@ -2398,36 +2399,36 @@
         <local:Item Key="item0939" Value="Saudade"/>
         <local:Item Key="item093A" Value="Save Room"/>
         <local:Item Key="item093B" Value="Black Impact"/>
-        <local:Item Key="item093C" Value="Unavailable"/>
-        <local:Item Key="item093D" Value="Unavailable"/>
-        <local:Item Key="item093E" Value="Unavailable"/>
-        <local:Item Key="item093F" Value="Unavailable"/>
-        <local:Item Key="item0940" Value="Unavailable"/>
-        <local:Item Key="item0941" Value="Unavailable"/>
-        <local:Item Key="item0942" Value="Unavailable"/>
-        <local:Item Key="item0943" Value="Unavailable"/>
-        <local:Item Key="item0944" Value="Unavailable"/>
-        <local:Item Key="item0945" Value="Unavailable"/>
-        <local:Item Key="item0946" Value="Unavailable"/>
-        <local:Item Key="item0947" Value="Unavailable"/>
-        <local:Item Key="item0948" Value="Unavailable"/>
-        <local:Item Key="item0949" Value="Unavailable"/>
-        <local:Item Key="item094A" Value="Unavailable"/>
-        <local:Item Key="item094B" Value="Unavailable"/>
-        <local:Item Key="item094C" Value="Unavailable"/>
-        <local:Item Key="item094D" Value="Unavailable"/>
-        <local:Item Key="item094E" Value="Unavailable"/>
-        <local:Item Key="item094F" Value="Unavailable"/>
-        <local:Item Key="item0950" Value="Unavailable"/>
-        <local:Item Key="item0951" Value="Unavailable"/>
-        <local:Item Key="item0952" Value="Unavailable"/>
-        <local:Item Key="item0953" Value="Unavailable"/>
-        <local:Item Key="item0954" Value="Unavailable"/>
-        <local:Item Key="item0955" Value="Unavailable"/>
-        <local:Item Key="item0956" Value="Unavailable"/>
-        <local:Item Key="item0957" Value="Unavailable"/>
-        <local:Item Key="item0958" Value="Unavailable"/>
-        <local:Item Key="item0959" Value="Unavailable"/>
+        <local:Item Key="item093C" Value="A Day in the Town"/>
+        <local:Item Key="item093D" Value="Bustlin' Dundorma"/>
+        <local:Item Key="item093E" Value="Great Desert Outpost, Loc Lac"/>
+        <local:Item Key="item093F" Value="The Lovely Feast"/>
+        <local:Item Key="item0940" Value="Savage of the Ancient Forest"/>
+        <local:Item Key="item0941" Value="Beast with Fire Upon its Back - Zorah Magdaros"/>
+        <local:Item Key="item0942" Value="Even Elder Dragons Tremble - Nergigante"/>
+        <local:Item Key="item0943" Value="The Shadow Upon the Tempest - Kushala Daora (World version)"/>
+        <local:Item Key="item0944" Value="Ruler of the Flame - Teostra (World version)"/>
+        <local:Item Key="item0945" Value="Keeper of Hades - Vaal Hazak"/>
+        <local:Item Key="item0946" Value="The Invading Tyrant - Bazelgeuse"/>
+        <local:Item Key="item0947" Value="Guiding Lamp to the Otherworld"/>
+        <local:Item Key="item0948" Value="How Life Springs Anew"/>
+        <local:Item Key="item0949" Value="Demonic Glutton - Deviljho: World Version"/>
+        <local:Item Key="item094A" Value="The Brilliance that Rules the Everstream - Kulve Taroth: Confrontation"/>
+        <local:Item Key="item094B" Value="The Brilliance that Rules the Everstream - Kulve Taroth: Transformation"/>
+        <local:Item Key="item094C" Value="The Brilliance that Rules the Everstream - Kulve Taroth: Tremor"/>
+        <local:Item Key="item094D" Value="Empress of the Flame - Lunastra: World Version"/>
+        <local:Item Key="item094E" Value="From the Rumblings Come a Song"/>
+        <local:Item Key="item094F" Value="A Single Bloom in an Eternity"/>
+        <local:Item Key="item0950" Value="The Beast Bares Its Fangs - Tigrex: World Version"/>
+        <local:Item Key="item0951" Value="The Scorching Blade - Glavenus: World Version"/>
+        <local:Item Key="item0952" Value="Brutish Indigo - Brachydios: World Version"/>
+        <local:Item Key="item0953" Value="Splendiferous Silver Sovereign - Velkhana"/>
+        <local:Item Key="item0954" Value="Golden Mane - Rajang: World version"/>
+        <local:Item Key="item0955" Value="Proof of a Hero: Sebastian Schwartz Remix"/>
+        <local:Item Key="item0956" Value="The Merry Band: The Sound Room Remix"/>
+        <local:Item Key="item0957" Value="Spark of Blue - Zinogre: Sebastian Schwartz Remix"/>
+        <local:Item Key="item0958" Value="Brutish Indigo - Brachydios: The Sound Room Remix"/>
+        <local:Item Key="item0959" Value="To The Ones With Life: The Sound Room Remix"/>
         <local:Item Key="item095A" Value="Unavailable"/>
         <local:Item Key="item095B" Value="Unavailable"/>
         <local:Item Key="item095C" Value="Unavailable"/>
@@ -2443,7 +2444,7 @@
         <local:Item Key="item0966" Value="Unavailable"/>
         <local:Item Key="item0967" Value="Unavailable"/>
         <local:Item Key="item0968" Value="Unavailable"/>
-        <local:Item Key="item0969" Value="Unavailable"/>
+        <local:Item Key="item0969" Value="타워 케이크 세트"/>
         <local:Item Key="item096A" Value="메라루 인형"/>
         <local:Item Key="item096B" Value="Unavailable"/>
         <local:Item Key="item096C" Value="Unavailable"/>
@@ -2475,33 +2476,33 @@
         <local:Item Key="item0986" Value="Unavailable"/>
         <local:Item Key="item0987" Value="Unavailable"/>
         <local:Item Key="item0988" Value="그림【사냥하다 잠시】"/>
-        <local:Item Key="item0989" Value="Unavailable"/>
+        <local:Item Key="item0989" Value="그림【고대수의 식물】"/>
         <local:Item Key="item098A" Value="그림【물주전자와 과일】"/>
         <local:Item Key="item098B" Value="Unavailable"/>
         <local:Item Key="item098C" Value="친숙한 조명【황】"/>
         <local:Item Key="item098D" Value="Unavailable"/>
-        <local:Item Key="item098E" Value="Unavailable"/>
-        <local:Item Key="item098F" Value="Unavailable"/>
+        <local:Item Key="item098E" Value="은은한 조명"/>
+        <local:Item Key="item098F" Value="고급 조명【백】"/>
         <local:Item Key="item0990" Value="Unavailable"/>
-        <local:Item Key="item0991" Value="Unavailable"/>
+        <local:Item Key="item0991" Value="가련한 조명【백】"/>
         <local:Item Key="item0992" Value="소박한 조명【황】"/>
         <local:Item Key="item0993" Value="소박한 조명【백】"/>
         <local:Item Key="item0994" Value="Unavailable"/>
         <local:Item Key="item0995" Value="Unavailable"/>
         <local:Item Key="item0996" Value="Unavailable"/>
-        <local:Item Key="item0997" Value="만복 연등"/>
-        <local:Item Key="item0998" Value="천등 조명"/>
+        <local:Item Key="item0997" Value="만복 등불"/>
+        <local:Item Key="item0998" Value="풍등 조명"/>
         <local:Item Key="item0999" Value="Unavailable"/>
         <local:Item Key="item099A" Value="Unavailable"/>
         <local:Item Key="item099B" Value="Unavailable"/>
         <local:Item Key="item099C" Value="Unavailable"/>
         <local:Item Key="item099D" Value="Unavailable"/>
         <local:Item Key="item099E" Value="Unavailable"/>
-        <local:Item Key="item099F" Value="Unavailable"/>
-        <local:Item Key="item09A0" Value="Unavailable"/>
-        <local:Item Key="item09A1" Value="Unavailable"/>
-        <local:Item Key="item09A2" Value="Unavailable"/>
-        <local:Item Key="item09A3" Value="Unavailable"/>
+        <local:Item Key="item099F" Value="단기【1기단】"/>
+        <local:Item Key="item09A0" Value="단기【2기단】"/>
+        <local:Item Key="item09A1" Value="단기【3기단】"/>
+        <local:Item Key="item09A2" Value="단기【4기단】"/>
+        <local:Item Key="item09A3" Value="단기【5기단】"/>
         <local:Item Key="item09A4" Value="그림【생명의 숲】"/>
         <local:Item Key="item09A5" Value="그림【아스테라】"/>
         <local:Item Key="item09A6" Value="Unavailable"/>
@@ -2512,8 +2513,8 @@
         <local:Item Key="item09AB" Value="Unavailable"/>
         <local:Item Key="item09AC" Value="등불①"/>
         <local:Item Key="item09AD" Value="Unavailable"/>
-        <local:Item Key="item09AE" Value="Unavailable"/>
-        <local:Item Key="item09AF" Value="Unavailable"/>
+        <local:Item Key="item09AE" Value="연구 세트"/>
+        <local:Item Key="item09AF" Value="키친 세트"/>
         <local:Item Key="item09B0" Value="석상【화룡】"/>
         <local:Item Key="item09B1" Value="Unavailable"/>
         <local:Item Key="item09B2" Value="Unavailable"/>
@@ -2524,7 +2525,7 @@
         <local:Item Key="item09B7" Value="Unavailable"/>
         <local:Item Key="item09B8" Value="Unavailable"/>
         <local:Item Key="item09B9" Value="안내벌레 벌레장"/>
-        <local:Item Key="item09BA" Value="Unavailable"/>
+        <local:Item Key="item09BA" Value="방패허수아비"/>
         <local:Item Key="item09BB" Value="피규어【적룡】"/>
         <local:Item Key="item09BC" Value="피규어【멸진룡】"/>
         <local:Item Key="item09BD" Value="피규어【강룡】"/>
@@ -2539,11 +2540,11 @@
         <local:Item Key="item09C6" Value="가련한 무늬 마루【녹】"/>
         <local:Item Key="item09C7" Value="가련한 무늬 마루【회】"/>
         <local:Item Key="item09C8" Value="고급스러운 목재 마루"/>
-        <local:Item Key="item09C9" Value="Unavailable"/>
-        <local:Item Key="item09CA" Value="Unavailable"/>
-        <local:Item Key="item09CB" Value="Unavailable"/>
-        <local:Item Key="item09CC" Value="Unavailable"/>
-        <local:Item Key="item09CD" Value="Unavailable"/>
+        <local:Item Key="item09C9" Value="다다미【녹】"/>
+        <local:Item Key="item09CA" Value="다다미【갈】"/>
+        <local:Item Key="item09CB" Value="목재 마루【흑】"/>
+        <local:Item Key="item09CC" Value="대나무 마루【녹】"/>
+        <local:Item Key="item09CD" Value="대나무 마루【갈】"/>
         <local:Item Key="item09CE" Value="타일 마루【청】"/>
         <local:Item Key="item09CF" Value="타일 마루【분홍】"/>
         <local:Item Key="item09D0" Value="타일 마루【하늘】"/>
@@ -2558,10 +2559,10 @@
         <local:Item Key="item09D9" Value="고급스러운 무늬 벽【적】"/>
         <local:Item Key="item09DA" Value="고급스러운 무늬 벽【녹】"/>
         <local:Item Key="item09DB" Value="Unavailable"/>
-        <local:Item Key="item09DC" Value="Unavailable"/>
-        <local:Item Key="item09DD" Value="Unavailable"/>
-        <local:Item Key="item09DE" Value="Unavailable"/>
-        <local:Item Key="item09DF" Value="Unavailable"/>
+        <local:Item Key="item09DC" Value="목재 벽【흑】"/>
+        <local:Item Key="item09DD" Value="석고 벽【황토】"/>
+        <local:Item Key="item09DE" Value="대나무 벽【녹】"/>
+        <local:Item Key="item09DF" Value="대나무 벽【갈】"/>
         <local:Item Key="item09E0" Value="대리석 벽【회】"/>
         <local:Item Key="item09E1" Value="Unavailable"/>
         <local:Item Key="item09E2" Value="만복 요리 세트"/>
@@ -2572,15 +2573,15 @@
         <local:Item Key="item09E7" Value="피규어【빙아룡】"/>
         <local:Item Key="item09E8" Value="피규어【맹우룡】"/>
         <local:Item Key="item09E9" Value="피규어【수전족】"/>
-        <local:Item Key="item09EA" Value="Unavailable"/>
-        <local:Item Key="item09EB" Value="Unavailable"/>
-        <local:Item Key="item09EC" Value="Unavailable"/>
-        <local:Item Key="item09ED" Value="Unavailable"/>
-        <local:Item Key="item09EE" Value="Unavailable"/>
-        <local:Item Key="item09EF" Value="Unavailable"/>
-        <local:Item Key="item09F0" Value="Unavailable"/>
-        <local:Item Key="item09F1" Value="Unavailable"/>
-        <local:Item Key="item09F2" Value="Unavailable"/>
+        <local:Item Key="item09EA" Value="피규어【빙룡】"/>
+        <local:Item Key="item09EB" Value="피규어【풍표룡】"/>
+        <local:Item Key="item09EC" Value="피규어【동어룡】"/>
+        <local:Item Key="item09ED" Value="피규어【신룡】"/>
+        <local:Item Key="item09EE" Value="피규어【독요조】"/>
+        <local:Item Key="item09EF" Value="피규어【산묘족】"/>
+        <local:Item Key="item09F0" Value="피규어【참룡】"/>
+        <local:Item Key="item09F1" Value="피규어【자화룡】"/>
+        <local:Item Key="item09F2" Value="피규어【소조】"/>
         <local:Item Key="item09F3" Value="Unavailable"/>
         <local:Item Key="item09F4" Value="Unavailable"/>
         <local:Item Key="item09F5" Value="Unavailable"/>
@@ -2620,7 +2621,7 @@
         <local:Item Key="item0A17" Value="Unavailable"/>
         <local:Item Key="item0A18" Value="Unavailable"/>
         <local:Item Key="item0A19" Value="Unavailable"/>
-        <local:Item Key="item0A1A" Value="천등"/>
+        <local:Item Key="item0A1A" Value="풍등"/>
         <local:Item Key="item0A1B" Value="Unavailable"/>
         <local:Item Key="item0A1C" Value="Unavailable"/>
         <local:Item Key="item0A1D" Value="Unavailable"/>
@@ -2629,7 +2630,7 @@
         <local:Item Key="item0A20" Value="Unavailable"/>
         <local:Item Key="item0A21" Value="Unavailable"/>
         <local:Item Key="item0A22" Value="Unavailable"/>
-        <local:Item Key="item0A23" Value="그림【거장의 극상품】"/>
+        <local:Item Key="item0A23" Value="그림【거장의 명화】"/>
         <local:Item Key="item0A24" Value="Unavailable"/>
         <local:Item Key="item0A25" Value="Unavailable"/>
         <local:Item Key="item0A26" Value="Unavailable"/>
@@ -2725,16 +2726,16 @@
         <local:Item Key="item0A80" Value="마카연금의 구슬-강철"/>
         <local:Item Key="item0A81" Value="마카연금의 구슬-은"/>
         <local:Item Key="item0A82" Value="금 연금 티켓"/>
-        <local:Item Key="item0A83" Value="천 연금 티켓"/>
+        <local:Item Key="item0A83" Value="하늘 연금 티켓"/>
         <local:Item Key="item0A84" Value="마카연금의 구슬-금"/>
         <local:Item Key="item0A85" Value="마카연금의 구슬-천"/>
-        <local:Item Key="item0A86" Value="Unavailable"/>
+        <local:Item Key="item0A86" Value="용력이 깃든 덩어리"/>
         <local:Item Key="item0A87" Value="Unavailable"/>
-        <local:Item Key="item0A88" Value="Unavailable"/>
-        <local:Item Key="item0A89" Value="Unavailable"/>
-        <local:Item Key="item0A8A" Value="Unavailable"/>
-        <local:Item Key="item0A8B" Value="Unavailable"/>
-        <local:Item Key="item0A8C" Value="Unavailable"/>
+        <local:Item Key="item0A88" Value="용빛광석 조각"/>
+        <local:Item Key="item0A89" Value="용빛광석"/>
+        <local:Item Key="item0A8A" Value="대용빛광석"/>
+        <local:Item Key="item0A8B" Value="강용빛광석"/>
+        <local:Item Key="item0A8C" Value="진용빛광석"/>
         <local:Item Key="item0A8D" Value="Unavailable"/>
         <local:Item Key="item0A8E" Value="Unavailable"/>
         <local:Item Key="item0A8F" Value="Unavailable"/>
@@ -2742,8 +2743,8 @@
         <local:Item Key="item0A91" Value="흔들흔들 항아리"/>
         <local:Item Key="item0A92" Value="S.T.A.R.S. 배지"/>
         <local:Item Key="item0A93" Value="HARDUMMY"/>
-        <local:Item Key="item0A94" Value="Unavailable"/>
-        <local:Item Key="item0A95" Value="Unavailable"/>
+        <local:Item Key="item0A94" Value="HARDUMMY"/>
+        <local:Item Key="item0A95" Value="HARDUMMY"/>
         <local:Item Key="item0A96" Value="만복 티켓"/>
         <local:Item Key="item0A97" Value="펭귄 티켓"/>
         <local:Item Key="item0A98" Value="봉인의 용해포"/>
@@ -2771,6 +2772,45 @@
         <local:Item Key="item0AAE" Value="훌륭한 모피"/>
         <local:Item Key="item0AAF" Value="만복 티켓 SP"/>
         <local:Item Key="item0AB0" Value="대감사 티켓 SP"/>
+        <local:Item Key="item0AB1" Value="Unavailable"/>
+        <local:Item Key="item0AB2" Value="Unavailable"/>
+        <local:Item Key="item0AB3" Value="Unavailable"/>
+        <local:Item Key="item0AB4" Value="Unavailable"/>
+        <local:Item Key="item0AB5" Value="Unavailable"/>
+        <local:Item Key="item0AB6" Value="용력이 깃든 덩어리-대검"/>
+        <local:Item Key="item0AB7" Value="용력이 깃든 덩어리-태도"/>
+        <local:Item Key="item0AB8" Value="용력이 깃든 덩어리-한손검"/>
+        <local:Item Key="item0AB9" Value="용력이 깃든 덩어리-쌍검"/>
+        <local:Item Key="item0ABA" Value="용력이 깃든 덩어리-창"/>
+        <local:Item Key="item0ABB" Value="용력이 깃든 덩어리-건랜스"/>
+        <local:Item Key="item0ABC" Value="용력이 깃든 덩어리-해머"/>
+        <local:Item Key="item0ABD" Value="용력이 깃든 덩어리-피리"/>
+        <local:Item Key="item0ABE" Value="용력이 깃든 덩어리-슬래시액스"/>
+        <local:Item Key="item0ABF" Value="용력이 깃든 덩어리-차지액스"/>
+        <local:Item Key="item0AC0" Value="용력이 깃든 덩어리-곤봉"/>
+        <local:Item Key="item0AC1" Value="용력이 깃든 덩어리-라이트보우건"/>
+        <local:Item Key="item0AC2" Value="용력이 깃든 덩어리-헤비보우건"/>
+        <local:Item Key="item0AC3" Value="용력이 깃든 덩어리-활"/>
+        <local:Item Key="item0AC4" Value="Unavailable"/>
+        <local:Item Key="item0AC5" Value="Unavailable"/>
+        <local:Item Key="item0AC6" Value="Unavailable"/>
+        <local:Item Key="item0AC7" Value="Unavailable"/>
+        <local:Item Key="item0AC8" Value="Unavailable"/>
+        <local:Item Key="item0AC9" Value="Unavailable"/>
+        <local:Item Key="item0ACA" Value="Unavailable"/>
+        <local:Item Key="item0ACB" Value="Unavailable"/>
+        <local:Item Key="item0ACC" Value="Unavailable"/>
+        <local:Item Key="item0ACD" Value="Unavailable"/>
+        <local:Item Key="item0ACE" Value="Unavailable"/>
+        <local:Item Key="item0ACF" Value="Unavailable"/>
+        <local:Item Key="item0AD0" Value="Unavailable"/>
+        <local:Item Key="item0AD1" Value="Unavailable"/>
+        <local:Item Key="item0AD2" Value="Unavailable"/>
+        <local:Item Key="item0AD3" Value="Unavailable"/>
+        <local:Item Key="item0AD4" Value="Unavailable"/>
+        <local:Item Key="item0AD5" Value="Unavailable"/>
+        <local:Item Key="item0AD6" Value="Unavailable"/>
+        <!--#endregion-->
     </x:Array>
 
 </ResourceDictionary>
